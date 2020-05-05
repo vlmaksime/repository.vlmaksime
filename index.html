@@ -1,0 +1,50 @@
+---
+layout: default
+title: Дополнения
+description: Репозиторий дополнений для Kodi
+---
+{% assign sorted_addons = site.addons | sort: 'date' | reverse %}
+<article class="post">
+  {% for addon in sorted_addons %}
+    {% capture category_slug %}{{ addon.categories }}{% endcapture %}
+    {% if category_slug == 'repository' %}
+      {% capture icon_url %}/releases/{{ addon._id }}/icon.png{% endcapture %}
+      {% capture download_url %}/releases/{{ addon._id }}/{{ addon._id }}-{{ addon.version }}.zip{% endcapture %}
+      <div class="post-content well">
+        <div class="row">
+          <div class="col-md-3 col-sm-3 col-xs-12" align="center">
+            <img alt="icon" src="{{ icon_url | absolute_url }}" style="height:160px; width:160px" />
+          </div>
+          <div class="col-md-9 col-sm-9 col-xs-12">
+            <h3>{{ addon.title }}</h3>
+            <p>{{ addon.summary }}</p>
+            <p>{{ addon.description }}</p>
+            <a class="btn btn-info btn-raised btn-sm" href="{{ download_url | absolute_url }}">Скачать</a>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+
+  <div class="post-content">
+    <div class="projects row">
+    {% for addon in sorted_addons %}
+      {% capture category_slug %}{{ addon.categories }}{% endcapture %}
+      {% if category_slug <> 'repository' %}
+        {% capture icon_url %}/repo/helix/{{ addon._id }}/icon.png{% endcapture %}
+        <div class="project-item col-md-4 col-sm-6 col-xs-12">
+          <div class="well project-outer">
+            <div class="project-inner" align="center">
+              <img alt="icon" src="{{ icon_url | absolute_url }}" style="max-height:200px; max-width:200px" />
+              <h3 class="project-headlines">{{ addon.title }}</h3>
+              <div class="project-footer"> 
+                <a href="{{ addon.url | absolute_url }}" class="btn btn-info btn-raised btn-sm project-link">Описание</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      {% endif %}
+    {% endfor %}
+    </div>
+  </div>
+</article>

@@ -1,0 +1,19 @@
+[
+  {
+    "text": "Новости",
+    "url": "/",
+    "icon": "fa-file-text",
+    "layout": "post"
+  },
+  {
+    "text": "Дополнения",
+    "url": "/repository.vlmaksime/",
+    "icon": "fa-archive",
+    "layout": "addon"
+  },
+  {
+    "text": "Поблагодарить",
+    "url": "/donate",
+    "icon": "fa-money",
+  },
+]

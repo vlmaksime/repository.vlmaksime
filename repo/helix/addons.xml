@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="script.module.simpleplugin" name="SimplePlugin" version="2.3.4" provider-name="Roman V.M.">
+      <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+      </requires>
+      <extension point="xbmc.python.module"/>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">SimplePlugin micro-framework</summary>
+        <description lang="en">SimplePlugin micro-framework that simplifies Kodi content plugin programming.</description>
+        <license>GNU GPL v.3</license>
+        <forum>http://forum.kodi.tv/showthread.php?tid=237532</forum>
+        <website>http://romanvm.github.io/script.module.simpleplugin</website>
+        <email>romanvm@yandex.ua</email>
+        <source>https://github.com/romanvm/script.module.simpleplugin</source>
+      </extension>
+    </addon>
+    <addon id="script.module.simpleplugin3" name="SimplePlugin 3" version="3.0.1" provider-name="Roman V.M.">
+      <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.future" version="0.16.0.4"/>
+      </requires>
+      <extension point="xbmc.python.module"/>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en_GB">SimplePlugin micro-framework</summary>
+        <description lang="en_GB">SimplePlugin micro-framework that simplifies Kodi content plugin programming.</description>
+        <license>GNU GPL v.3</license>
+        <forum></forum>
+        <website>http://romanvm.github.io/script.module.simpleplugin</website>
+        <email>roman1972@gmail.com</email>
+        <source>https://github.com/romanvm/script.module.simpleplugin</source>
+      </extension>
+    </addon>
+    <addon id="script.module.simplemedia" version="1.2.6" name="SimpleMedia" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.simpleplugin3" version="3.0.1"/>
+            <import addon="script.module.requests" version="2.15.1"/>
+        </requires>
+        <extension point="xbmc.python.module"/>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum></forum>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/script.module.simplemedia</source>
+        </extension>
+    </addon>
+    <addon id="script.module.pyxbmct" name="PyXBMCt" version="1.1.8" provider-name="Roman_V_M">
+      <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+      </requires>
+      <extension point="xbmc.python.module"/>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">PyXBMCt UI framework</summary>
+        <description lang="en">PyXBMCt is a mini-framework for simple XBMC addon UI buliding. It is similar to PyQt and provides parent windows, a number of UI controls (widgets) and a grid layout manager to place controls.</description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <license>GNU GPL v.3</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=174859</forum>
+        <website>http://romanvm.github.io/PyXBMCt</website>
+        <email>romanvm@yandex.ua</email>
+        <source>https://github.com/romanvm/script.module.pyxbmct</source>
+      </extension>  
+    </addon>
+    <addon id="script.module.inputstreamhelper" version="0.3.3.2" name="InputStream Helper" provider-name="emilsvennesson">
+      <requires>
+        <import addon="xbmc.python" version="2.19.0"/>
+        <import addon="script.module.requests" version="2.9.1"/>
+      </requires>
+      <extension point="xbmc.python.module"/>
+      <extension point="xbmc.addon.metadata">
+        <description lang="en_GB">A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.</description>
+        <news>2018.02.21 v0.3.3
+            + Load loop if it's a kernel module (thanks to mkreisl)
+            + Fix legacy Widevine CDM update detection
+            + inputstream_addon is now a public variable
+            + Notify user that ARM64 needs 32-bit userspace
+            + Improve logging
+            + Cosmetics
+        </news>
+        <platform>all</platform>
+        <license>MIT License</license>
+        <source>https://github.com/emilsvennesson/script.module.inputstreamhelper</source>
+        <assets>
+          <icon>resources/icon.png</icon>
+        </assets>
+      </extension>
+    </addon>
+    <addon id="plugin.video.tvzavr.ru" version="1.2.0" name="TVZavr" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.m3u8" version="0.2.10"/>
+            <import addon="script.module.simplemedia" version="1.2.3"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.service"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="ru">TVzavr.ru — международный интернет-кинотеатр, который появился на рынке в 2010 году.</summary>
+            <description lang="ru">Интернет-кинотеатр tvzavr - легальный просмотр фильмов, сериалов и мультфильмов на любой вкус в HD и Full HD качестве.</description>
+            <disclaimer lang="ru">Онлайн-кинотеатр TVzavr.ru</disclaimer>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14182</forum>
+            <website>http://www.tvzavr.ru/</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.tvzavr.ru</source>
+            <news>v1.2.0 (2019-08-28)[CR]- Обновлена ссылка для работы с UnitedSearch. Для корректного поиска необходимо сбросить настройки дополнения[CR]- Реализована синхронизация времени просмотра из ресурса в Kodi[CR]- Добавлен раздел "Подборки"[CR]- Реализован вывод пометок о просмотре по данным ресурса и вывод пользовательской оценки[CR]- Мелкие исправления и оптимизация[CR][CR]v1.1.0 (2019-08-01)[CR]- Добавлена возможность авторизации по коду устройства[CR]- Обновлены логотип и фанарт[CR]- Добавлен раздел "Просмотренно". Реализовано заполнение раздела просмотренным контентом[CR]- Реализована синхронизация времени просмотра из Kodi на ресурсе[CR]- Добавлено контекстное меню для управляения разделами "Избранное", "Просмотренное", "Поиск"[CR]- Мелкие исправления и оптимизация</news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+                <screenshot>media\screenshot-01.jpg</screenshot>
+                <screenshot>media\screenshot-02.jpg</screenshot>
+                <screenshot>media\screenshot-03.jpg</screenshot>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="plugin.video.united.search" version="0.2.5" name="United Search" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.simpleplugin" version="2.2.0"/>
+            <import addon="script.module.simplejson" version="3.3.0"/>
+            <import addon="script.module.pyxbmct" version="1.1.8" />
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="kodi.context.item"/>
+        <extension point="xbmc.python.module"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Unified search for video add-ons</summary>
+            <summary lang="ru">Единый поиск для видеодополнений</summary>
+            <description lang="en">This add-on is intended for search in other video add-ons</description>
+            <description lang="ru">Дополнение предназначено для выполнения поиска в других видеодополнениях</description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru"></disclaimer>
+            <language></language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.united.search</source>
+            <news>v0.2.5 (2019-08-09)[CR]- Добавлена поддержка "красивых ссылок"[CR][CR]v0.2.4 (2018-10-21)[CR]- Исправлены выявленные ошибки[CR][CR]v0.2.3 (2018-10-07)[CR]- Пункты контекстного меню вынесены в отдельные дополнения[CR][CR]v0.2.2 (2017-07-02)[CR]- Доработан механизм обучения и поиска в дополнениях без встроенной поддержки</news>
+            <assets>
+                <icon>icon.png</icon>
+                <screenshot>media\screenshot-01.jpg</screenshot>
+                <screenshot>media\screenshot-02.jpg</screenshot>
+                <screenshot>media\screenshot-03.jpg</screenshot>
+                <screenshot>media\screenshot-04.jpg</screenshot>
+                <screenshot>media\screenshot-05.jpg</screenshot>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="context.united.search.learn" version="0.1.2" name="United Search Context: Learn" provider-name="vl.maksime">
+        <requires>
+            <import addon="plugin.video.united.search" version="0.2.2"/>
+        </requires>
+        <extension point="kodi.context.item"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en"></summary>
+            <summary lang="ru"></summary>
+            <description lang="en"></description>
+            <description lang="ru"></description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru"></disclaimer>
+            <language></language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
+            <email>vl.maksime@gmail.com</email>
+            <source></source>
+            <news></news>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="context.united.search.search" version="0.1.1" name="United Search Context: Search" provider-name="vl.maksime">
+        <requires>
+            <import addon="plugin.video.united.search" version="0.2.2"/>
+        </requires>
+        <extension point="kodi.context.item"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en"></summary>
+            <summary lang="ru"></summary>
+            <description lang="en"></description>
+            <description lang="ru"></description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru"></disclaimer>
+            <language></language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
+            <email>vl.maksime@gmail.com</email>
+            <source></source>
+            <news></news>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="plugin.video.zona.mobi" version="0.2.1" name="ZONA.plus" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.requests" version="2.12.4"/>
+            <import addon="script.module.simplejson" version="3.3.0"/>
+            <import addon="script.module.simpleplugin" version="2.3.2"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Movies and TV Shows online</summary>
+            <summary lang="ru">Фильмы и Сериалы онлайн</summary>
+            <description lang="en"></description>
+            <description lang="ru">Выбирайте фильмы и сериалы по жанру, году, рейтингу, популярности.</description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru">Дополнение для просмотра фильмов и сериалов онлайн.</disclaimer>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14529</forum>
+            <website>https://zona.plus/</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.zona.mobi</source>
+            <news>v0.2.1 (2020-02-03)[CR]- Обновлен адрес сайта по умолчанию[CR]- Исправлено получение изображений[CR]v0.2.0 (2019-05-25)[CR]- Добавлена возможность указывать адрес сайта в настройках дополнения[CR][CR]v0.1.9 (2019-01-08)[CR]- Обновлен адрес сайта[CR]- Исправлены ошибки</news>
+            <assets>
+                <icon>icon.png</icon>
+                <screenshot>media\screenshot-01.jpg</screenshot>
+                <screenshot>media\screenshot-02.jpg</screenshot>
+                <screenshot>media\screenshot-03.jpg</screenshot>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="skin.estuary2.j-extended" version="1.9.16.090.01" name="Estuary v2 Extended [Jarvis]" provider-name="phil65, Ichabod Fletchman, YLLOW_DRAGON, vl.maksime">
+        <requires>
+            <import addon="xbmc.gui" version="5.10.0"/>
+            <import addon="script.pvr.favourites" version="1.6.0"/>
+            <import addon="script.image.resource.select" version="1.1.0"/>
+        </requires>
+        <extension point="xbmc.gui.skin"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="af_ZA">Estuary v2 Extended oortreksel deur phil65. (Kodi se bestek oortreksel)</summary>
+            <summary lang="bg_BG">Estuary v2 Extended облик от phil65 и Piers. (стандартния облик на Kodi)</summary>
+            <summary lang="ca_ES">Aparença Estuary v2 Extended per phil65 i Piers. (aparença predeterminada de Kodi)</summary>
+            <summary lang="cs_CZ">Vzhled Estuary v2 Extended od autora phil65. (Výchozí vzhled Kodi)</summary>
+            <summary lang="da_DK">Estuary v2 Extended skin. Lavet af phil65. (Kodi's standard brugerflade)</summary>
+            <summary lang="de_DE">Estuary v2 Extended Skin von phil65 und Piers. (Kodi Standardskin)</summary>
+            <summary lang="el_GR">Το κέλυφος Estuary v2 Extended από τον phil65 και τον Pier. (προεπιλεγμένο κέλυφος του Kodi)</summary>
+            <summary lang="en_GB">Estuary v2 Extended skin by phil65, Piers, YLLOW_DRAGON.</summary>
+            <summary lang="en_NZ">Estuary v2 Extended skin by phil65, Piers, YLLOW_DRAGON.</summary>
+            <summary lang="en_US">Estuary v2 Extended skin by phil65, Piers, YLLOW_DRAGON.</summary>
+            <summary lang="es_AR">Skin Estuary v2 Extended por phil65 (skin por defecto de Kodi)</summary>
+            <summary lang="es_ES">Skin Estuary v2 Extended, creado por phil65 and Piers (skin por defecto de Kodi).</summary>
+            <summary lang="es_MX">Estuary v2 Extended skin por phil65 y Piers. (El skin por defecto de Kodi)</summary>
+            <summary lang="fi_FI">Estuary v2 Extended on phil65:n luoma Kodin oletusulkoasu.</summary>
+            <summary lang="fr_CA">Habillage Estuary v2 Extended par phil65 et Piers (habillage par défaut de Kodi).</summary>
+            <summary lang="fr_FR">Estuary v2 Extended, un habillage par phil65 et Piers (habillage d'origine de Kodi).</summary>
+            <summary lang="gl_ES">Pel Estuary v2 Extended por phil65 and Piers. (Pel predefinida do Kodi)</summary>
+            <summary lang="he_IL">מעטפת Estuary v2 Extended של phil65 (ברירת המחדל של Kodi)</summary>
+            <summary lang="hr_HR">Estuary v2 Extended presvlaka autora phil65 i Piersa. (uobičajena Kodi presvlaka)</summary>
+            <summary lang="hu_HU">Estuary v2 Extended felszín. Készítette phil65 és Piers. (Kodi alapértelmezett felszín)</summary>
+            <summary lang="it_IT">Skin Estuary v2 Extended da phil65 e Piers. (Skin predefinita di Kodi)</summary>
+            <summary lang="ja_JP">Estuary v2 Extended スキン by phil65 and Piers (Kodi デフォルトスキン)</summary>
+            <summary lang="ko_KR">phil65와 Piers가 만든 Estuary v2 Extended 스킨 (Kodi 기본 스킨)</summary>
+            <summary lang="lt_LT">Estuary v2 Extended teminė išvaizda, kurią sukūrė phil65 ir Piers. (Numatytoji Kodi teminė išvaizda)</summary>
+            <summary lang="lv_LV">Estuary v2 Extended apvalks no phil65. (Kodi noklusējuma apvalks)</summary>
+            <summary lang="ms_MY">Kulit Estuary v2 Extended oleh phil65 dan rakan-rakan. (Kulit lalai Kodi)</summary>
+            <summary lang="nb_NO">Estuary v2 Extended-drakt av phil65 og Piers. (Kodis forvalgte drakt)</summary>
+            <summary lang="nl_NL">Estuary v2 Extended skin door phil65 en Piers. (Kodi's standaardskin)</summary>
+            <summary lang="pl_PL">Skóra Estuary v2 Extended autorstwa phil65 i Piers. (Domyślna skóra Kodi)</summary>
+            <summary lang="pt_BR">Skin Estuary v2 Extended por phil65 e Piers. (Skin padrão do Kodi)</summary>
+            <summary lang="pt_PT">Visual Estuary v2 Extended de phil65 e Piers. (Visual por omissão do Kodi)</summary>
+            <summary lang="ro_RO">Tema Estuary v2 Extended de phil65 și Piers. (Tema implicită pentru Kodi)</summary>
+            <summary lang="ru_RU">Обложка Estuary v2 Extended. Авторы: phil65, Piers, YLLOW_DRAGON.</summary>
+            <summary lang="sk_SK">Vzhľad Estuary v2 Extended, vytvorili phil65 a Piers. (predvolený vzhľad pre Kodi)</summary>
+            <summary lang="sr_RS">Маска Estuary v2 Extended аутора phil65 и Piers. (Подразумевана Коди маска)</summary>
+            <summary lang="sr_RS@latin">Maska Estuary v2 Extended autora phil65 i Piers. (Podrazumevana Kodi maska)</summary>
+            <summary lang="sv_SE">Estuary v2 Extended-skin av phil65 och Piers. (Kodi's standard-skin)</summary>
+            <summary lang="szl">Skōra Estuary v2 Extended ôd phil65 i Piers. (Wychodnŏ skōra Kodi)</summary>
+            <summary lang="th_TH">สกิน Estuary v2 Extended โดย phil65 และ Piers (หน้าตาเริ่มต้นของKodi)</summary>
+            <summary lang="tr_TR">Estuary v2 Extended dış görünümü. phil65 (Kodi'nin varsayılan dış görünümü)</summary>
+            <summary lang="uk_UA">Обкладинка Estuary v2 Extended від phil65, Piers, YLLOW_DRAGON.</summary>
+            <summary lang="zh_CN">phil65 和 Piers 开发的 Estuary v2 Extended 皮肤（Kodi 的默认皮肤）</summary>
+            <summary lang="zh_TW">phil65與Piers 製作的Estuary v2 Extended佈景主題（Kodi的預設佈景主題）</summary>
+            <description lang="af_ZA">Estuary v2 Extended is die bestek oortreksel vir Kodi 17.0 en op. Dit poog om maklik te wees vir eerste keer Kodi gebruikers om te verstaan en te gebruik.</description>
+            <description lang="bg_BG">Estuary v2 Extended е стандартният облик на Kodi 17 и по-новите версии. Целта е да се улеснят хората които се сблъскват за първи път с Kodi.</description>
+            <description lang="ca_ES">Estuary v2 Extended és l'aparença predeterminada de Kodi 17.0 i posteriors. Per als usuaris per primera vegada de Kodi, intenta ser fàcil d'entendre i d'utilitzar.</description>
+            <description lang="cs_CZ">Estuary v2 Extended je výchozí vzhled pro Kodi 17.0 a vyšší. Snaží se být jednoduše pochopitelný a použitelný pro nové uživatele Kodi.</description>
+            <description lang="da_DK">Estuary v2 Extended er standard  brugerfladen er Kodi 17.0 og højere. Det forenkler førstegangsbrugen  af Kodi ved at gøre det nemmer at forstå og bruge.</description>
+            <description lang="de_DE">Estuary v2 Extended ist der Standardskin für Kodi 17.0 und höher. Ziel war es, einen einfach zu bedienenden Skin für neue Kodi-Benutzer zu entwickeln.</description>
+            <description lang="el_GR">Το Estuary v2 Extended είναι η προεπιλεγμένη αμφίεση για τις εκδόσεις Kodi 17.0 και άνω. Επιχειρεί να είναι προσιτό στους αρχάριους χρήστες του Kodi για να το κατανοήσουν και να το χρησιμοποιήσουν.</description>
+            <description lang="en_GB">Estuary v2 Extended  - is the modernized skin for Kodi.</description>
+            <description lang="en_NZ">Estuary v2 Extended  - is the modernized skin for Kodi.</description>
+            <description lang="en_US">Estuary v2 Extended  - is the modernized skin for Kodi.</description>
+            <description lang="es_AR">Estuary v2 Extended es el skin por defecto para Kodi 17.0 y posteriores. Intenta ser fácil de entender y utilizar para los usuarios Kodi primerizos.</description>
+            <description lang="es_ES">Estuary v2 Extended es el skin por defecto para Kodi 17.0 o superior. Su objetivo es la facilidad de comprensión y uso para usuarios primerizos de Kodi.</description>
+            <description lang="es_MX">Estuary v2 Extended es el skin por defecto para Kodi 17.0 y superior. Intenta ser fácil para los usuarios de Kodi de primera vez para entender y usar.</description>
+            <description lang="fi_FI">Estuary v2 Extended on oletusulkoasu Kodin versiosta 17.0 lähtien. Se pyrkii olemaan helppo ymmärtää ja käyttää Kodin ensikäyttäjille. </description>
+            <description lang="fr_CA">Estuary v2 Extended est l'habillage par défaut pour Kodi 17.0 et ultérieure. Il s'efforce d'être facile à comprendre et à utiliser pour les utilisateurs débutants de Kodi.</description>
+            <description lang="fr_FR">Estuary v2 Extended est l'habillage d'origine pour Kodi 17.0 et supérieur. Il est facile à comprendre et à utiliser pour les utilisateurs novices de Kodi.</description>
+            <description lang="gl_ES">Estuary v2 Extended é a pel predefinida para Kodi 17.0 e superior. Esta tenta ser doada de entender e usar polos usuarios recen chegados a Kodi.</description>
+            <description lang="he_IL">Estuary v2 Extended הינה מעטפת ברירת המחדל של Kodi מגרסאת 17.0 ומעלה. מטרת מעטפת זו היא להיות פשוטה לשימוש ולהכרה ראשונית ע"י משתמשים חדשים.</description>
+            <description lang="hr_HR">Estuary v2 Extended je uobičajena presvlaka za Kodi 17.0 i novije inačice. To je pokušaj da se novim korisnicima olakša prvo korištenje i kasnija upotreba Kodija.</description>
+            <description lang="hu_HU">Az Estuary v2 Extended az alapértelmezett felszín a 17.0 és újabb Kodi kiadásokban.  Megpróbál könnyen kezelhető és használható lenni, az újonc Kodi felhasználóknak is.</description>
+            <description lang="it_IT">Estuary v2 Extended è la skin predefinita di Kodi 17.0 e successivi. Cerca di essere facile da capire e usare per i nuovi utenti di Kodi.</description>
+            <description lang="ja_JP">Estuary v2 Extended は Kodi 17.0 およびそれ以上のバージョンで標準のスキンです。ユーザが初めて Kodi に触れる際にわかりやすく使えるようにしてあります。</description>
+            <description lang="ko_KR">Estuary v2 Extended는 Kodi 17.0이상의 기본 스킨입니다. 처음 Kodi를 접하는 사용자가 쉽게 이해하고 사용할 수 있도록 만들었습니다.</description>
+            <description lang="lt_LT">Estuary v2 Extended yra numatytoji Kodi 17.0 ir aukštesnių versijų teminė išvaizda. Jos tikslas yra būti lengvai perprantama naujiems Kodi vartotojams.</description>
+            <description lang="ms_MY">Estuary v2 Extended ialah kulit lalai untuk Kodi 17.0 dan ke atas. Kulit yang mudah digunakan buat pengguna Kodi kali pertama untuk memahami dan menggunakannya.</description>
+            <description lang="nb_NO">Estuary v2 Extended er forvalgt drakt til Kodi 17.0 og nyere. Det tar mål av seg å være en enkel drakt for førstegangsbrukere av Kodi, slik at det er til å forstå og kan brukes.</description>
+            <description lang="nl_NL">Estuary v2 Extended is de standaardskin voor Kodi 17.0 en hoger. Het tracht eenvoudig te begrijpen en te gebruiken te zijn voor beginnende Kodi-gebruikers.</description>
+            <description lang="pl_PL">Estuary v2 Extended jest domyślną skórą Kodi dla wersji 17.0 i późniejszych. Jest próbą łatwego wprowadzenia początkujących użytkowników w funkcje Kodi.</description>
+            <description lang="pt_BR">Estuary v2 Extended é a skin padrão para o Kodi 17.0 e acima. Objetiva ser fácil para usuários que iniciam no Kodi pela primeira vez, facilitando aprendizagem de uso do mesmo.</description>
+            <description lang="pt_PT">O Estuary v2 Extended é o visual por omissão para o Kodi 17.0 e posteriores. Tenta ser simples para os utilizadores menos experientes do Kodi compreenderem e usarem.</description>
+            <description lang="ro_RO">Estuary v2 Extended este tema implicită pentru Kodi 17.0 și versiunile ulterioare. Încearcă să fie ușor de înțeles și folosit pentru utilizatorii care folosesc Kodi pentru prima dată.</description>
+            <description lang="ru_RU">Estuary v2 Extended - это модернизированная обложка KODI.</description>
+            <description lang="sk_SK">Estuary v2 Extended je predvolený vzhľad pre Kodi 17.0 a vyššie. Pokúša sa byť pre prvotných používateľov Kodi jednoduchým na pochopenie a používanie.</description>
+            <description lang="sr_RS">Estuary v2 Extended је подразумевана маска за Kodi 17.0 и изнад. Покушава да буде једноставан за разумевање и коришћење новим корисницима Kodi-ја.</description>
+            <description lang="sr_RS@latin">Estuary v2 Extended je podrazumevana maska za Kodi 17.0 i iznad. Pokušava da bude jednostavan za razumevanje i korišćenje novim korisnicima Kodija.</description>
+            <description lang="sv_SE">Estuary v2 Extended är standard-skin för Kodi 17.0 och uppåt. Det försöker att vara lättförståeligt för förstagångsanvändare av Kodi att förstå och använda.</description>
+            <description lang="szl">Estuary v2 Extended je wychodnōm skōrōm Kodi dlŏ wersyje 17.0 i dalszych. Prōbuje być proste dlŏ używŏczōw, dlŏ kerych Kodi je nowe</description>
+            <description lang="th_TH">Estuary v2 Extended คือหน้าตาเริ่มต้นของ Kodi 17.0 และสูงกว่า เป็นความพยายามที่จะทำให้ง่ายสำหรับผู้ใช้ Kodi ในครั้งแรก ที่จะเข้าใจและใช้งาน</description>
+            <description lang="tr_TR">Estuary v2 Extended Kodi 17.0 ve yukarısı için varsayılan dış görünümdür. İlk kez Kodi kullananlar için anlaşılması ve kullanımı kolaydır.</description>
+            <description lang="uk_UA">Estuary v2 Extended є стандартною обкладинкою Kodi 17.0 і подальших версій. Її основна ідея — простота використання для нових користувачів Kodi.</description>
+            <description lang="zh_CN">Estuary v2 Extended 是 Kodi 17.0 的默认皮肤。它力求使首次使用 Kodi 的用户易于上手。</description>
+            <description lang="zh_TW">Estuary v2 Extended是Kodi 17.0開始搭載的預設佈景主題。主要在讓第一次使用 Kodi 的使用者可以簡單地上手。</description>
+            <disclaimer lang="af_ZA">Estuary v2 Extended is die bestek oortreksel vir Kodi, verwydering mag probleme veroorsaak</disclaimer>
+            <disclaimer lang="bg_BG">Estuary v2 Extended е стандартният облик на Kodi. Премахването му може да предизвика проблеми</disclaimer>
+            <disclaimer lang="ca_ES">Estuary v2 Extended és l'aparença predeterminada de Kodi, si s'elimina pot causar problemes.</disclaimer>
+            <disclaimer lang="cs_CZ">Estuary v2 Extended je výchozí vzhled pro Kodi, jeho odebrání může způsobit problémy</disclaimer>
+            <disclaimer lang="da_DK">Estuary v2 Extended er standard  brugerfladen. Fjernes det kan der opstå problemer.</disclaimer>
+            <disclaimer lang="de_DE">Estuary v2 Extended ist der Standardskin von Kodi. Ein Entfernen des Skins kann Probleme verursachen.</disclaimer>
+            <disclaimer lang="el_GR">Το Estuary v2 Extended είναι η προεπιλεγμένη αμφίεση για το Kodi. Η αφαίρεσή του μπορεί να δημιουργήσει προβλήματα.</disclaimer>
+            <disclaimer lang="en_GB">Estuary v2 Extended  - is the modernized skin for Kodi</disclaimer>
+            <disclaimer lang="en_NZ">Estuary v2 Extended  - is the modernized skin for Kodi</disclaimer>
+            <disclaimer lang="en_US">Estuary v2 Extended  - is the modernized skin for Kodi</disclaimer>
+            <disclaimer lang="es_AR">Estuary v2 Extended es el skin por defecto de Kodi. Borrarlo puede causar problemas</disclaimer>
+            <disclaimer lang="es_ES">Estuary v2 Extended es el skin por defecto de Kodi. Desinstalarlo puede causar problemas.</disclaimer>
+            <disclaimer lang="es_MX">Estuary v2 Extended es el skin por defecto para Kodi, su eliminación puede causar problemas</disclaimer>
+            <disclaimer lang="fi_FI">Estuary v2 Extended on Kodin oletusulkoasu, sen poisto voi aiheuttaa ongelmia</disclaimer>
+            <disclaimer lang="fr_CA">Estuary v2 Extended est l'habillage par défaut de Kodi, le supprimer peut créer des problèmes</disclaimer>
+            <disclaimer lang="fr_FR">Estuary v2 Extended est l'habillage d'origine de Kodi, le retirer peut créer des problèmes</disclaimer>
+            <disclaimer lang="gl_ES">Estuary v2 Extended é a pel predefinida para Kodi e eliminala pode causar problemas.</disclaimer>
+            <disclaimer lang="he_IL">Estuary v2 Extended הינה מעטפת ברירת המחדל של Kodi, הסרתה עלולה לגרום לתקלות</disclaimer>
+            <disclaimer lang="hr_HR">Estuary v2 Extended je uobičajena presvlaka za Kodi, njegovim uklanjanjem može uzrokovati poteškoće</disclaimer>
+            <disclaimer lang="hu_HU">Az Estuary v2 Extended az alapértelmezett Kodi felszín. Eltávolítása problémákat okozhat.</disclaimer>
+            <disclaimer lang="it_IT">Estuary v2 Extended è la skin predefinita di Kodi, rimuoverla potrebbe causare problemi</disclaimer>
+            <disclaimer lang="ja_JP">Estuary v2 Extended は Kodi のデフォルトスキンですので、これを削除するとうまく動かなくなる可能性があります</disclaimer>
+            <disclaimer lang="ko_KR">Estuary v2 Extended는 Kodi의 기본스킨으로 제거시 문제가 생길 수 있습니다.</disclaimer>
+            <disclaimer lang="lt_LT">Estuary v2 Extended yra numatytoji Kodi teminė išvaizda, jos pašalinimas gali sukelti problemų</disclaimer>
+            <disclaimer lang="ms_MY">Estuary v2 Extended ialah kulit lalai Kodi, mengubahnya boleh menimbulkan isu.</disclaimer>
+            <disclaimer lang="nb_NO">Estuary v2 Extended er forvalgt drakt for Kodi, dersom du fjerner det kan det forårsake problemer.</disclaimer>
+            <disclaimer lang="nl_NL">Estuary v2 Extended is de standaardskin voor Kodi, het verwijderen van Estuary v2 Extended kan leiden tot problemen.</disclaimer>
+            <disclaimer lang="pl_PL">Estuary v2 Extended jest domyślną skórą Kodi, usunięciejej może powodować problemy</disclaimer>
+            <disclaimer lang="pt_BR">Estuary v2 Extended é a skin padrão para o Kodi, removendo-a pode causar problemas</disclaimer>
+            <disclaimer lang="pt_PT">O Estuary v2 Extended é o visual por omissão do Kodi; se o remover, poderá ter alguns problemas</disclaimer>
+            <disclaimer lang="ro_RO">Estuary v2 Extended este tema implicită pentru Kodi, eliminarea ei poate cauza probleme</disclaimer>
+            <disclaimer lang="ru_RU">Estuary v2 Extended - это модернизированная обложка KODI</disclaimer>
+            <disclaimer lang="sk_SK">Estuary v2 Extended je predvolený vzhľad pre Kodi, jeho odstránenie môže spôsobiť problémy</disclaimer>
+            <disclaimer lang="sr_RS">Estuary v2 Extended је подразумевана маска за Kodi, уклањање може изазвати проблеме</disclaimer>
+            <disclaimer lang="sr_RS@latin">Estuary v2 Extended je podrazumevana maska za Kodi, uklanjanje može izazvati probleme</disclaimer>
+            <disclaimer lang="sv_SE">Estuary v2 Extended är standard skalet för Kodi, ta bort den kan orsaka problem</disclaimer>
+            <disclaimer lang="szl">Estuary v2 Extended je wychodnōm skōrōm Kodi, jij uchrōniynie może sprŏwiać niyprzileżytości</disclaimer>
+            <disclaimer lang="th_TH">Estuary v2 Extended เป็นหน้าตาเริ่มต้นสำหรับ Kodi, การลบมัน อาจทำให้เกิดปัญหา</disclaimer>
+            <disclaimer lang="tr_TR">Estuary v2 Extended Kodi için varsayılan dış görünümdür, kaldırmak sorunlara yol açabilir</disclaimer>
+            <disclaimer lang="uk_UA">Estuary v2 Extended — основна обкладинка Kodi, і її видалення може призвести до проблем</disclaimer>
+            <disclaimer lang="zh_CN">Estuary v2 Extended 是 Kodi 的默认皮肤，删除它可能导致故障。</disclaimer>
+            <disclaimer lang="zh_TW">Estuary v2 Extended 是 Kodi 預設的佈景主題，移除它可能會造成問題</disclaimer>
+            <platform>all</platform>
+            <license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+            <forum>http://forum.kodi.tv/</forum>
+            <email>nkvoronov@gmail.com</email>
+            <source>https://github.com/nkvoronov/skin.estuary2-extended.git</source>
+        </extension>
+    </addon>
+	<addon id="weather.gismeteo" version="0.4.1" name="Gismeteo" provider-name="vl.maksime">
+		<requires>
+			<import addon="xbmc.python" version="2.19.0"/>
+			<import addon="script.module.future" version="0.16.0.4"/>
+			<import addon="script.module.simpleplugin3" version="3.0.1"/>
+			<import addon="script.module.requests" version="2.15.1"/>
+		</requires>
+		<extension point="xbmc.python.weather"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Gismeteo Weather Forecast. Real time weather and detailed forecast all round the world</summary>
+			<summary lang="ru">Прогноз погоды от ведущего погодного сервиса Gismeteo</summary>
+			<summary lang="sp">Pronóstico del tiempo Gismeteo. Clima en tiempo real y pronóstico detallado en todo el mundo</summary>
+			<description lang="en">The weather is provided solely for personal non-commercial use</description>
+			<description lang="ru">Погода предоставлена исключительно для личного некоммерческого использования</description>
+			<description lang="sp">El clima se proporciona únicamente para su uso personal y no comercial</description>
+			<disclaimer lang="en">The weather forecast has been prepared by MapMakers Group Ltd</disclaimer>
+			<disclaimer lang="ru">Прогноз погоды подготовлен НПЦ "Мэп Мейкер"</disclaimer>
+			<disclaimer lang="sp">El pronóstico del tiempo ha sido preparado por MapMakers Group Ltd</disclaimer>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+			<forum>http://xbmc.ru/forum/showthread.php?t=14692</forum>
+			<website>https://www.gismeteo.ru/</website>
+			<email>vl.maksime@gmail.com</email>
+			<source>https://github.com/vlmaksime/weather.gismeteo</source>
+			<news>v0.4.1 (2020-05-03)[CR]- Изменен механизм кэширования данных[CR]- исправлены выявленные ошибки</news>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
+    <addon id="plugin.video.russiatv1" version="0.2.2" name="Россия 1" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.requests" version="2.12.4"/>
+            <import addon="script.module.simpleplugin" version="2.3.2"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">"Россия 1" is an unofficial add-on of the All-Russian State TV and Radio Company for KODI.</summary>
+            <summary lang="ru">"Россия 1" - неофициальное дополнение Всероссийской государственной телерадиокомпании для KODI.</summary>
+            <description lang="en">- With the addition, you will not miss any favorite TV series, film or program! [CR] - If you want to keep abreast of all the events occurring both in Russia and in the world, then the latest issues of the "News" program are what you need! Look and learn new things!</description>
+            <description lang="ru">- С дополнением вы не пропустите ни одного любимого сериала, фильма или передачи! Для вас приготовлен бесплатный доступ не только к постоянно обновляющемуся контенту, но и крупнейшему видеоархиву телеканала "Россия 1".[CR]- Если вы хотите быть в курсе всех событий, происходящих как в России, так и в мире, тогда свежие выпуски программы "Вести" то, что вам нужно! Смотри и узнавай новое!</description>
+            <disclaimer lang="en">Come in add-on to "Russia 1", we always have something to see!</disclaimer>
+            <disclaimer lang="ru">Заходите в дополнение "Россия 1", у нас всегда есть, что посмотреть!</disclaimer>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14828</forum>
+            <website>https://russia.tv/</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.russiatv1</source>
+            <news>v0.2.2 (2019-03-03)[CR]- Учтены изменения в API ресурса[CR][CR]v0.2.1 (2018-01-09)[CR]- Учтены изменения в API ресурсаv[CR][CR]0.1.5 (2018-01-09)[CR]- Оптимизация[CR]- Реализовано получение актерского состава из описания[CR]- В описании материала добавлена возможность просмотреть трейлер</news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.png</fanart>
+                <screenshot>media\screenshot-01.jpg</screenshot>
+                <screenshot>media\screenshot-02.jpg</screenshot>
+                <screenshot>media\screenshot-03.jpg</screenshot>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="plugin.video.ntv.ru" version="0.2.2" name="НТВ" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.requests" version="2.12.4"/>
+            <import addon="script.module.simplemedia" version="1.0.5"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en"></summary>
+            <summary lang="ru">"НТВ" - является неофициальным дополнением для KODI.</summary>
+            <description lang="en"></description>
+            <description lang="ru">Дополнение позволяет смотреть самые качественные передачи, шоу, новости, сериалы, кино от ведущего российского телеканала. Более 24 часов видео ежедневно, днем и ночью. С помощью приложения вы сможете в любой момент быть в курсе всех событий, смотреть прямой телеэфир НТВ, полные выпуски и архив всех передач, которые когда-либо были показаны на экране.</description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru">Присоединитесь к миллионам посетителей НТВ.Ru!</disclaimer>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14937</forum>
+            <website>http://www.ntv.ru/</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.ntv.ru</source>
+            <news>v0.2.2 (2019-08-15)[CR]- Исправлены выявленные ошибки[CR][CR]v0.2.1 (2018-02-25)[CR]- Учтены изменения в API ресурса[CR][CR]v0.1.1 (2018-02-25)[CR]- Публичный релиз</news>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="script.module.api.videomore.ru" version="1.0.3" name="API videomore.ru" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.requests" version="2.12.4"/>
+        </requires>
+        <extension point="xbmc.python.module"/>
+        <extension point="xbmc.addon.metadata">
+            <language></language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <website>https://videomore.ru</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/script.module.api.videomore.ru</source>
+        </extension>
+    </addon>
+    <addon id="plugin.video.domashniy.ru" version="1.1.1" name="Dомашний" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.simplemedia" version="1.0.5"/>
+            <import addon="script.module.api.videomore.ru" version="1.0.2"/>
+            <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB"></summary>
+            <summary lang="ru_RU">Просмотр сереалов, шоу и передач, опубликованных на сайте телеканала "Домашний"</summary>
+            <description lang="en_GB"></description>
+            <description lang="ru_RU"></description>
+            <disclaimer lang="en_GB"></disclaimer>
+            <disclaimer lang="ru_RU"></disclaimer>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=15080</forum>
+            <website>https://domashniy.ru</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.domashniy.ru</source>
+            <news>v1.1.0 (2018-04-22)[CR]- Реализован запуск DRM видео</news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="plugin.video.videomore.ru" version="1.2.0" name="Videomore" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.simplemedia" version="1.0.5"/>
+            <import addon="script.module.api.videomore.ru" version="1.0.2"/>
+            <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB"></summary>
+            <summary lang="ru_RU"></summary>
+            <description lang="en_GB"></description>
+            <description lang="ru_RU"></description>
+            <disclaimer lang="en_GB"></disclaimer>
+            <disclaimer lang="ru_RU"></disclaimer>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=15103</forum>
+            <website>https://videomore.ru</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.videomore.ru</source>
+            <news>v1.2.0 (2019-03-11)[CR]- Адаптирован для работы с Kodi 18[CR][CR]v1.1.0 (2018-04-22)[CR]- Дополнение переписано с нуля[CR]- Реализовано воспроизведение DRM видео</news>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="plugin.video.tvigle.ru" version="2.0.1" name="Tvigle" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.future" version="0.16.0.4"/>
+            <import addon="script.module.simplemedia" version="1.2.4"/>
+            <import addon="script.module.pyjwt" version="1.6.4"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.service"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Tvigle - it's your favorite movies, TV shows, soviet cartoons, modern cartoons online for free.</summary>
+            <summary lang="ru">Tvigle – это любимые фильмы, сериалы, советские мультфильмы, современные мультики, программы, ТВ-шоу онлайн и бесплатно.</summary>
+            <description lang="en">Several million people are already looking Tvigle online and on Smart TV. Install this plugin and watch movies, TV shows, cartoons online in HD quality.[CR]The main advantage of Tvigle - 99% of movies and TV shows free of charge.</description>
+            <description lang="ru">Несколько миллионов пользователей уже смотрят Tvigle на сайте и в приложениях Smart TV. Установите это дополнение и смотрите фильмы, сериалы, мультфильмы online в HD качестве.[CR]Главное преимущество Tvigle – 99% фильмов и сериалов бесплатные.</description>
+            <disclaimer lang="en">Now in your TV</disclaimer>
+            <disclaimer lang="ru">Теперь в твоем телевизоре</disclaimer>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=15151</forum>
+            <website>http://www.tvigle.ru/</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.tvigle.ru</source>
+            <news>v2.0.1 (2019-10-20)[CR]- Восстановлена работа дополнения с использованием нового API[CR]- Добавлена возможность авторизации[CR]- Для авторизованных пользователей реализована загрузка разделов "Избранное" и "Просмотренное"[CR]- Для авторизованных пользователей реализована синхронизация времени и статуса просмотра между Kodi и сайтом</news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+                <screenshot>media\screenshot-01.jpg</screenshot>
+                <screenshot>media\screenshot-02.jpg</screenshot>
+                <screenshot>media\screenshot-03.jpg</screenshot>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="plugin.video.ivi.client" version="1.1.3" name="ivi" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.requests" version="2.12.4"/>
+            <import addon="script.module.simplemedia" version="1.0.4"/>
+            <import addon="script.module.inputstreamhelper" version="0.3.3"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en_GB"></summary>
+            <summary lang="ru_RU">Онлайн-кинотеатр ivi</summary>
+            <description lang="en_GB"></description>
+            <description lang="ru_RU">Смотрите ваши любимые фильмы и сериалы на большом экране вашего ТВ.[CR]Доступ к огромному каталогу фильмов и сериалов для бесплатного просмотра в один клик.[CR]Смотрите в HD качестве на большом экране вашего телевизора.</description>
+            <disclaimer lang="en_GB"></disclaimer>
+            <disclaimer lang="ru_RU">Самая большая в России легальная фильмотек</disclaimer>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=15328</forum>
+            <website>https://www.ivi.ru/</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.ivi.client</source>
+            <news>v1.1.3 (2019-06-29)[CR]- Реализована возможность авторизации по коду[CR]- Исправлены выявленные ошибки[CR][CR]v1.1.2 (2018-11-04)[CR]- Для контента с Widevine CDM ограничен доступ для KODI 18+ на всех платформах[CR][CR]v1.1.1 (2018-10-21)[CR]- Исправлены выявленные ошибки[CR][CR]v1.1.0 (2018-08-27)[CR]- Добавлена поддержка Widevine CDM[CR]- Добавлена авторизация пользователя[CR]- Добавлена поддержка дополнения "Add to Lib"[CR][CR]v1.0.0 (2018-06-09)[CR]- Публичный релиз</news>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="plugin.video.filmix" version="1.2.10" name="Filmix" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+            <import addon="script.module.simplemedia" version="1.2.6"/>
+            <import addon="script.module.filmix.cert" version="0.9.4"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="ru_RU">Смотреть онлайн фильмы и сериалы бесплатно</summary>
+            <description lang="ru_RU">Дополнение для онлайн-кинотеатра Filmix! В нашей базе 60000 разных видео, каждый из которых доступен вашему просмотру бесплатно и в отличном качестве. Выбирайте по вкусу и по настроению.</description>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=16408</forum>
+            <website>https://filmix.co/</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.filmix</source>
+            <news>v1.2.10 (2020-04-19)[CR]- Добавлена возможность входа по коду[CR]- Удален вход по логину и паролю[CR]- Добавлена возможность выбора сервера из настроек дополнения[CR]- Реализовано добавление сериалов в историю просмотра[CR]- Восстановена работа добавения и удаления в разделы "Смотреть позже" и "Избранное"[CR]- Для United Search установил ссылку поиска в новом формате. Требуется сброс основных настроек</news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="script.module.filmix.cert" version="0.9.4" name="Filmix certificates" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0"/>
+        </requires>
+        <extension point="xbmc.python.module" />
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=16408</forum>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.filmix</source>
+        </extension>
+    </addon>
+    <addon id="script.module.pyjwt" name="pyjwt" provider-name="jpadilla (hello@jpadilla.com)" version="1.6.4">
+        <requires>
+            <import addon="xbmc.python" version="2.19.0" />
+        </requires>
+        <extension point="xbmc.python.module" />
+        <extension point="xbmc.addon.metadata">
+            <description lang="en_GB">pyjwt module</description>
+            <summary lang="en_GB">pyjwt module</summary>
+            <license>MIT</license>
+            <platform>all</platform>
+            <website>https://pyjwt.readthedocs.io</website>
+            <source>https://github.com/jpadilla/pyjwt</source>
+        </extension>
+    </addon>
+</addons>

@@ -1,0 +1,68 @@
+[submodule "plugin.video.ivi.client"]
+	path = sources/plugin.video.ivi.client
+	url = https://github.com/vlmaksime/plugin.video.ivi.client.git
+	branch = master
+[submodule "plugin.video.united.search"]
+	path = sources/plugin.video.united.search
+	url = https://github.com/vlmaksime/plugin.video.united.search.git
+	branch = master
+[submodule "script.module.simplemedia"]
+	path = sources/script.module.simplemedia
+	url = https://github.com/vlmaksime/script.module.simplemedia.git
+	branch = master
+[submodule "weather.gismeteo"]
+	path = sources/weather.gismeteo
+	url = https://github.com/vlmaksime/weather.gismeteo.git
+	branch = master
+[submodule "plugin.video.tvigle.ru"]
+	path = sources/plugin.video.tvigle.ru
+	url = https://github.com/vlmaksime/plugin.video.tvigle.ru.git
+	branch = master
+[submodule "script.module.api.videomore.ru"]
+	path = sources/script.module.api.videomore.ru
+	url = https://github.com/vlmaksime/script.module.api.videomore.ru.git
+	branch = master
+[submodule "plugin.video.zona.mobi"]
+	path = sources/plugin.video.zona.mobi
+	url = https://github.com/vlmaksime/plugin.video.zona.mobi.git
+	branch = master
+[submodule "plugin.video.videomore.ru"]
+	path = sources/plugin.video.videomore.ru
+	url = https://github.com/vlmaksime/plugin.video.videomore.ru.git
+	branch = master
+[submodule "plugin.video.video.az"]
+	path = sources/plugin.video.video.az
+	url = https://github.com/vlmaksime/plugin.video.video.az.git
+	branch = master
+[submodule "plugin.video.tvzavr.ru"]
+	path = sources/plugin.video.tvzavr.ru
+	url = https://github.com/vlmaksime/plugin.video.tvzavr.ru.git
+	branch = master
+[submodule "plugin.video.russiatv1"]
+	path = sources/plugin.video.russiatv1
+	url = https://github.com/vlmaksime/plugin.video.russiatv1.git
+	branch = master
+[submodule "plugin.video.ntv.ru"]
+	path = sources/plugin.video.ntv.ru
+	url = https://github.com/vlmaksime/plugin.video.ntv.ru.git
+	branch = master
+[submodule "plugin.video.domashniy.ru"]
+	path = sources/plugin.video.domashniy.ru
+	url = https://github.com/vlmaksime/plugin.video.domashniy.ru.git
+	branch = master
+[submodule "script.module.inputstreamhelper"]
+	path = sources/script.module.inputstreamhelper
+	url = https://github.com/vlmaksime/script.module.inputstreamhelper.git
+	branch = mod
+[submodule "script.module.simpleplugin"]
+	path = sources/script.module.simpleplugin
+	url = https://github.com/romanvm/script.module.simpleplugin.git
+	branch = legacy
+[submodule "script.module.simpleplugin3"]
+	path = sources/script.module.simpleplugin3
+	url = https://github.com/romanvm/script.module.simpleplugin.git
+	branch = develop
+[submodule "sources/plugin.video.filmix"]
+	path = sources/plugin.video.filmix
+	url = https://github.com/vlmaksime/plugin.video.filmix
+	branch = master
