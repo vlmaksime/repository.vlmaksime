@@ -380,7 +380,7 @@
             <source>https://github.com/nkvoronov/skin.estuary2-extended.git</source>
         </extension>
     </addon>
-	<addon id="weather.gismeteo" version="0.4.1" name="Gismeteo" provider-name="vl.maksime">
+	<addon id="weather.gismeteo" version="0.4.1.1" name="Gismeteo" provider-name="vl.maksime">
 		<requires>
 			<import addon="xbmc.python" version="2.19.0"/>
 			<import addon="script.module.future" version="0.16.0.4"/>
