@@ -666,4 +666,16 @@
             <source>https://github.com/jpadilla/pyjwt</source>
         </extension>
     </addon>
+	<addon id="resource.images.weatherprovidericons.gismeteo" name="Weather Provider Icons - Gismeteo" version="0.1.1" provider-name="vl.maksime">
+		<extension point="kodi.resource.images" compile="false" type="weatherprovidericons" />
+		<requires>
+			<import addon="kodi.resource" version="1.0.0"/>
+		</requires>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en_GB">Gismeteo Weather Provider Icons</summary>
+			<description lang="en_GB">Weather icon pack created from Gismeteo Provider icons</description>
+			<platform>all</platform>
+			<license>CC-BY-3.0</license>
+		</extension>
+	</addon>
 </addons>
