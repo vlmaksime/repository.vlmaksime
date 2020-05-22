@@ -32,4 +32,34 @@
             <source>https://github.com/vlmaksime/script.module.simplemedia</source>
         </extension>
     </addon>
+	<addon id="weather.gismeteo" version="0.4.2~beta1" name="Gismeteo" provider-name="vl.maksime">
+		<requires>
+			<import addon="xbmc.python" version="2.19.0"/>
+			<import addon="script.module.future" version="0.16.0.4"/>
+			<import addon="script.module.simpleplugin3" version="3.0.1"/>
+			<import addon="script.module.requests" version="2.15.1"/>
+		</requires>
+		<extension point="xbmc.python.weather"/>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Gismeteo Weather Forecast. Real time weather and detailed forecast all round the world</summary>
+			<summary lang="ru">Прогноз погоды от ведущего погодного сервиса Gismeteo</summary>
+			<summary lang="sp">Pronóstico del tiempo Gismeteo. Clima en tiempo real y pronóstico detallado en todo el mundo</summary>
+			<description lang="en">The weather is provided solely for personal non-commercial use</description>
+			<description lang="ru">Погода предоставлена исключительно для личного некоммерческого использования</description>
+			<description lang="sp">El clima se proporciona únicamente para su uso personal y no comercial</description>
+			<disclaimer lang="en">The weather forecast has been prepared by MapMakers Group Ltd</disclaimer>
+			<disclaimer lang="ru">Прогноз погоды подготовлен НПЦ "Мэп Мейкер"</disclaimer>
+			<disclaimer lang="sp">El pronóstico del tiempo ha sido preparado por MapMakers Group Ltd</disclaimer>
+			<platform>all</platform>
+			<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+			<forum>http://xbmc.ru/forum/showthread.php?t=14692</forum>
+			<website>https://www.gismeteo.ru/</website>
+			<email>vl.maksime@gmail.com</email>
+			<source>https://github.com/vlmaksime/weather.gismeteo</source>
+			<news>v0.4.2 (2020-05-21)[CR]- Fixed identified bugs[CR][CR]v0.4.1 (2020-05-03)[CR]- Changed data caching mechanism[CR]- Fixed identified bugs[CR]- Added Spanish translation (CHIKIRY WIZARD GROUP)</news>
+			<assets>
+				<icon>icon.png</icon>
+			</assets>
+		</extension>
+	</addon>
 </addons>
