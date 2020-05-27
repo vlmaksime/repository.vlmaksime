@@ -24,8 +24,8 @@
       <extension point="xbmc.python.module"/>
       <extension point="xbmc.addon.metadata">
         <platform>all</platform>
-        <summary lang="en_GB">SimplePlugin micro-framework</summary>
-        <description lang="en_GB">SimplePlugin micro-framework that simplifies Kodi content plugin programming.</description>
+        <summary lang="en">SimplePlugin micro-framework</summary>
+        <description lang="en">SimplePlugin micro-framework that simplifies Kodi content plugin programming.</description>
         <license>GNU GPL v.3</license>
         <forum></forum>
         <website>http://romanvm.github.io/script.module.simpleplugin</website>
@@ -73,7 +73,7 @@
       </requires>
       <extension point="xbmc.python.module"/>
       <extension point="xbmc.addon.metadata">
-        <description lang="en_GB">A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.</description>
+        <description lang="en">A simple Kodi module that makes life easier for add-on developers relying on InputStream based add-ons and DRM playback.</description>
         <news>2018.02.21 v0.3.3
             + Load loop if it's a kernel module (thanks to mkreisl)
             + Fix legacy Widevine CDM update detection
@@ -253,7 +253,7 @@
             <summary lang="da_DK">Estuary v2 Extended skin. Lavet af phil65. (Kodi's standard brugerflade)</summary>
             <summary lang="de_DE">Estuary v2 Extended Skin von phil65 und Piers. (Kodi Standardskin)</summary>
             <summary lang="el_GR">Το κέλυφος Estuary v2 Extended από τον phil65 και τον Pier. (προεπιλεγμένο κέλυφος του Kodi)</summary>
-            <summary lang="en_GB">Estuary v2 Extended skin by phil65, Piers, YLLOW_DRAGON.</summary>
+            <summary lang="en">Estuary v2 Extended skin by phil65, Piers, YLLOW_DRAGON.</summary>
             <summary lang="en_NZ">Estuary v2 Extended skin by phil65, Piers, YLLOW_DRAGON.</summary>
             <summary lang="en_US">Estuary v2 Extended skin by phil65, Piers, YLLOW_DRAGON.</summary>
             <summary lang="es_AR">Skin Estuary v2 Extended por phil65 (skin por defecto de Kodi)</summary>
@@ -278,7 +278,7 @@
             <summary lang="pt_BR">Skin Estuary v2 Extended por phil65 e Piers. (Skin padrão do Kodi)</summary>
             <summary lang="pt_PT">Visual Estuary v2 Extended de phil65 e Piers. (Visual por omissão do Kodi)</summary>
             <summary lang="ro_RO">Tema Estuary v2 Extended de phil65 și Piers. (Tema implicită pentru Kodi)</summary>
-            <summary lang="ru_RU">Обложка Estuary v2 Extended. Авторы: phil65, Piers, YLLOW_DRAGON.</summary>
+            <summary lang="ru">Обложка Estuary v2 Extended. Авторы: phil65, Piers, YLLOW_DRAGON.</summary>
             <summary lang="sk_SK">Vzhľad Estuary v2 Extended, vytvorili phil65 a Piers. (predvolený vzhľad pre Kodi)</summary>
             <summary lang="sr_RS">Маска Estuary v2 Extended аутора phil65 и Piers. (Подразумевана Коди маска)</summary>
             <summary lang="sr_RS@latin">Maska Estuary v2 Extended autora phil65 i Piers. (Podrazumevana Kodi maska)</summary>
@@ -296,7 +296,7 @@
             <description lang="da_DK">Estuary v2 Extended er standard  brugerfladen er Kodi 17.0 og højere. Det forenkler førstegangsbrugen  af Kodi ved at gøre det nemmer at forstå og bruge.</description>
             <description lang="de_DE">Estuary v2 Extended ist der Standardskin für Kodi 17.0 und höher. Ziel war es, einen einfach zu bedienenden Skin für neue Kodi-Benutzer zu entwickeln.</description>
             <description lang="el_GR">Το Estuary v2 Extended είναι η προεπιλεγμένη αμφίεση για τις εκδόσεις Kodi 17.0 και άνω. Επιχειρεί να είναι προσιτό στους αρχάριους χρήστες του Kodi για να το κατανοήσουν και να το χρησιμοποιήσουν.</description>
-            <description lang="en_GB">Estuary v2 Extended  - is the modernized skin for Kodi.</description>
+            <description lang="en">Estuary v2 Extended  - is the modernized skin for Kodi.</description>
             <description lang="en_NZ">Estuary v2 Extended  - is the modernized skin for Kodi.</description>
             <description lang="en_US">Estuary v2 Extended  - is the modernized skin for Kodi.</description>
             <description lang="es_AR">Estuary v2 Extended es el skin por defecto para Kodi 17.0 y posteriores. Intenta ser fácil de entender y utilizar para los usuarios Kodi primerizos.</description>
@@ -320,7 +320,7 @@
             <description lang="pt_BR">Estuary v2 Extended é a skin padrão para o Kodi 17.0 e acima. Objetiva ser fácil para usuários que iniciam no Kodi pela primeira vez, facilitando aprendizagem de uso do mesmo.</description>
             <description lang="pt_PT">O Estuary v2 Extended é o visual por omissão para o Kodi 17.0 e posteriores. Tenta ser simples para os utilizadores menos experientes do Kodi compreenderem e usarem.</description>
             <description lang="ro_RO">Estuary v2 Extended este tema implicită pentru Kodi 17.0 și versiunile ulterioare. Încearcă să fie ușor de înțeles și folosit pentru utilizatorii care folosesc Kodi pentru prima dată.</description>
-            <description lang="ru_RU">Estuary v2 Extended - это модернизированная обложка KODI.</description>
+            <description lang="ru">Estuary v2 Extended - это модернизированная обложка KODI.</description>
             <description lang="sk_SK">Estuary v2 Extended je predvolený vzhľad pre Kodi 17.0 a vyššie. Pokúša sa byť pre prvotných používateľov Kodi jednoduchým na pochopenie a používanie.</description>
             <description lang="sr_RS">Estuary v2 Extended је подразумевана маска за Kodi 17.0 и изнад. Покушава да буде једноставан за разумевање и коришћење новим корисницима Kodi-ја.</description>
             <description lang="sr_RS@latin">Estuary v2 Extended je podrazumevana maska za Kodi 17.0 i iznad. Pokušava da bude jednostavan za razumevanje i korišćenje novim korisnicima Kodija.</description>
@@ -338,7 +338,7 @@
             <disclaimer lang="da_DK">Estuary v2 Extended er standard  brugerfladen. Fjernes det kan der opstå problemer.</disclaimer>
             <disclaimer lang="de_DE">Estuary v2 Extended ist der Standardskin von Kodi. Ein Entfernen des Skins kann Probleme verursachen.</disclaimer>
             <disclaimer lang="el_GR">Το Estuary v2 Extended είναι η προεπιλεγμένη αμφίεση για το Kodi. Η αφαίρεσή του μπορεί να δημιουργήσει προβλήματα.</disclaimer>
-            <disclaimer lang="en_GB">Estuary v2 Extended  - is the modernized skin for Kodi</disclaimer>
+            <disclaimer lang="en">Estuary v2 Extended  - is the modernized skin for Kodi</disclaimer>
             <disclaimer lang="en_NZ">Estuary v2 Extended  - is the modernized skin for Kodi</disclaimer>
             <disclaimer lang="en_US">Estuary v2 Extended  - is the modernized skin for Kodi</disclaimer>
             <disclaimer lang="es_AR">Estuary v2 Extended es el skin por defecto de Kodi. Borrarlo puede causar problemas</disclaimer>
@@ -362,7 +362,7 @@
             <disclaimer lang="pt_BR">Estuary v2 Extended é a skin padrão para o Kodi, removendo-a pode causar problemas</disclaimer>
             <disclaimer lang="pt_PT">O Estuary v2 Extended é o visual por omissão do Kodi; se o remover, poderá ter alguns problemas</disclaimer>
             <disclaimer lang="ro_RO">Estuary v2 Extended este tema implicită pentru Kodi, eliminarea ei poate cauza probleme</disclaimer>
-            <disclaimer lang="ru_RU">Estuary v2 Extended - это модернизированная обложка KODI</disclaimer>
+            <disclaimer lang="ru">Estuary v2 Extended - это модернизированная обложка KODI</disclaimer>
             <disclaimer lang="sk_SK">Estuary v2 Extended je predvolený vzhľad pre Kodi, jeho odstránenie môže spôsobiť problémy</disclaimer>
             <disclaimer lang="sr_RS">Estuary v2 Extended је подразумевана маска за Kodi, уклањање може изазвати проблеме</disclaimer>
             <disclaimer lang="sr_RS@latin">Estuary v2 Extended je podrazumevana maska za Kodi, uklanjanje može izazvati probleme</disclaimer>
@@ -498,12 +498,12 @@
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB"></summary>
-            <summary lang="ru_RU">Просмотр сереалов, шоу и передач, опубликованных на сайте телеканала "Домашний"</summary>
-            <description lang="en_GB"></description>
-            <description lang="ru_RU"></description>
-            <disclaimer lang="en_GB"></disclaimer>
-            <disclaimer lang="ru_RU"></disclaimer>
+            <summary lang="en"></summary>
+            <summary lang="ru">Просмотр сереалов, шоу и передач, опубликованных на сайте телеканала "Домашний"</summary>
+            <description lang="en"></description>
+            <description lang="ru"></description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru"></disclaimer>
             <language>ru</language>
             <platform>all</platform>
             <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
@@ -529,12 +529,12 @@
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB"></summary>
-            <summary lang="ru_RU"></summary>
-            <description lang="en_GB"></description>
-            <description lang="ru_RU"></description>
-            <disclaimer lang="en_GB"></disclaimer>
-            <disclaimer lang="ru_RU"></disclaimer>
+            <summary lang="en"></summary>
+            <summary lang="ru"></summary>
+            <description lang="en"></description>
+            <description lang="ru"></description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru"></disclaimer>
             <language>ru</language>
             <platform>all</platform>
             <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
@@ -583,7 +583,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.ivi.client" version="1.1.3" name="ivi" provider-name="vl.maksime">
+    <addon id="plugin.video.ivi.client" version="1.1.4" name="ivi" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.requests" version="2.12.4"/>
@@ -594,12 +594,12 @@
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="en_GB"></summary>
-            <summary lang="ru_RU">Онлайн-кинотеатр ivi</summary>
-            <description lang="en_GB"></description>
-            <description lang="ru_RU">Смотрите ваши любимые фильмы и сериалы на большом экране вашего ТВ.[CR]Доступ к огромному каталогу фильмов и сериалов для бесплатного просмотра в один клик.[CR]Смотрите в HD качестве на большом экране вашего телевизора.</description>
-            <disclaimer lang="en_GB"></disclaimer>
-            <disclaimer lang="ru_RU">Самая большая в России легальная фильмотек</disclaimer>
+            <summary lang="en"></summary>
+            <summary lang="ru">Онлайн-кинотеатр ivi</summary>
+            <description lang="en"></description>
+            <description lang="ru">Смотрите ваши любимые фильмы и сериалы на большом экране вашего ТВ.[CR]Доступ к огромному каталогу фильмов и сериалов для бесплатного просмотра в один клик.[CR]Смотрите в HD качестве на большом экране вашего телевизора.</description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru">Самая большая в России легальная фильмотек</disclaimer>
             <language>ru</language>
             <platform>all</platform>
             <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
@@ -607,9 +607,10 @@
             <website>https://www.ivi.ru/</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.ivi.client</source>
-            <news>v1.1.3 (2019-06-29)[CR]- Реализована возможность авторизации по коду[CR]- Исправлены выявленные ошибки[CR][CR]v1.1.2 (2018-11-04)[CR]- Для контента с Widevine CDM ограничен доступ для KODI 18+ на всех платформах[CR][CR]v1.1.1 (2018-10-21)[CR]- Исправлены выявленные ошибки[CR][CR]v1.1.0 (2018-08-27)[CR]- Добавлена поддержка Widevine CDM[CR]- Добавлена авторизация пользователя[CR]- Добавлена поддержка дополнения "Add to Lib"[CR][CR]v1.0.0 (2018-06-09)[CR]- Публичный релиз</news>
+            <news>v1.1.4 (2030-05-28)[CR]- Исправлено воспроизведение DRM контента</news>
             <assets>
                 <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
             </assets>
         </extension>
     </addon>
@@ -623,8 +624,8 @@
             <provides>video</provides>
         </extension>
         <extension point="xbmc.addon.metadata">
-            <summary lang="ru_RU">Смотреть онлайн фильмы и сериалы бесплатно</summary>
-            <description lang="ru_RU">Дополнение для онлайн-кинотеатра Filmix! В нашей базе 60000 разных видео, каждый из которых доступен вашему просмотру бесплатно и в отличном качестве. Выбирайте по вкусу и по настроению.</description>
+            <summary lang="ru">Смотреть онлайн фильмы и сериалы бесплатно</summary>
+            <description lang="ru">Дополнение для онлайн-кинотеатра Filmix! В нашей базе 60000 разных видео, каждый из которых доступен вашему просмотру бесплатно и в отличном качестве. Выбирайте по вкусу и по настроению.</description>
             <language>ru</language>
             <platform>all</platform>
             <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
@@ -658,8 +659,8 @@
         </requires>
         <extension point="xbmc.python.module" />
         <extension point="xbmc.addon.metadata">
-            <description lang="en_GB">pyjwt module</description>
-            <summary lang="en_GB">pyjwt module</summary>
+            <description lang="en">pyjwt module</description>
+            <summary lang="en">pyjwt module</summary>
             <license>MIT</license>
             <platform>all</platform>
             <website>https://pyjwt.readthedocs.io</website>
@@ -672,8 +673,8 @@
 			<import addon="kodi.resource" version="1.0.0"/>
 		</requires>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en_GB">Gismeteo Weather Provider Icons</summary>
-			<description lang="en_GB">Weather icon pack created from Gismeteo Provider icons</description>
+			<summary lang="en">Gismeteo Weather Provider Icons</summary>
+			<description lang="en">Weather icon pack created from Gismeteo Provider icons</description>
 			<platform>all</platform>
 			<license>CC-BY-3.0</license>
 		</extension>
