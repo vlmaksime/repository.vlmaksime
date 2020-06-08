@@ -42,7 +42,7 @@
         <extension point="xbmc.python.module"/>
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum></forum>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/script.module.simplemedia</source>
@@ -106,7 +106,7 @@
             <disclaimer lang="ru">Онлайн-кинотеатр TVzavr.ru</disclaimer>
             <language>ru</language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=14182</forum>
             <website>http://www.tvzavr.ru/</website>
             <email>vl.maksime@gmail.com</email>
@@ -142,7 +142,7 @@
             <disclaimer lang="ru"></disclaimer>
             <language></language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.united.search</source>
@@ -171,7 +171,7 @@
             <disclaimer lang="ru"></disclaimer>
             <language></language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
             <email>vl.maksime@gmail.com</email>
             <source></source>
@@ -195,7 +195,7 @@
             <disclaimer lang="ru"></disclaimer>
             <language></language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
             <email>vl.maksime@gmail.com</email>
             <source></source>
@@ -224,7 +224,7 @@
             <disclaimer lang="ru">Дополнение для просмотра фильмов и сериалов онлайн.</disclaimer>
             <language>ru</language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=14529</forum>
             <website>https://zona.plus/</website>
             <email>vl.maksime@gmail.com</email>
@@ -380,7 +380,7 @@
             <source>https://github.com/nkvoronov/skin.estuary2-extended.git</source>
         </extension>
     </addon>
-	<addon id="weather.gismeteo" version="0.4.1.2" name="Gismeteo" provider-name="vl.maksime">
+	<addon id="weather.gismeteo" version="0.5.1" name="Gismeteo" provider-name="vl.maksime">
 		<requires>
 			<import addon="xbmc.python" version="2.19.0"/>
 			<import addon="script.module.future" version="0.16.0.4"/>
@@ -399,12 +399,12 @@
 			<disclaimer lang="ru">Прогноз погоды подготовлен НПЦ "Мэп Мейкер"</disclaimer>
 			<disclaimer lang="sp">El pronóstico del tiempo ha sido preparado por MapMakers Group Ltd</disclaimer>
 			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+			<license>GPL-3.0-only</license>
 			<forum>http://xbmc.ru/forum/showthread.php?t=14692</forum>
 			<website>https://www.gismeteo.ru/</website>
 			<email>vl.maksime@gmail.com</email>
 			<source>https://github.com/vlmaksime/weather.gismeteo</source>
-			<news>v0.4.1 (2020-05-03)[CR]- Изменен механизм кэширования данных[CR]- исправлены выявленные ошибки</news>
+			<news>v0.5.1 (2020-06-01)[CR]- Добавлена возможность вывода иконок Gismeteo</news>
 			<assets>
 				<icon>icon.png</icon>
 			</assets>
@@ -428,7 +428,7 @@
             <disclaimer lang="ru">Заходите в дополнение "Россия 1", у нас всегда есть, что посмотреть!</disclaimer>
             <language>ru</language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=14828</forum>
             <website>https://russia.tv/</website>
             <email>vl.maksime@gmail.com</email>
@@ -461,7 +461,7 @@
             <disclaimer lang="ru">Присоединитесь к миллионам посетителей НТВ.Ru!</disclaimer>
             <language>ru</language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=14937</forum>
             <website>http://www.ntv.ru/</website>
             <email>vl.maksime@gmail.com</email>
@@ -481,7 +481,7 @@
         <extension point="xbmc.addon.metadata">
             <language></language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <website>https://videomore.ru</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/script.module.api.videomore.ru</source>
@@ -506,7 +506,7 @@
             <disclaimer lang="ru"></disclaimer>
             <language>ru</language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=15080</forum>
             <website>https://domashniy.ru</website>
             <email>vl.maksime@gmail.com</email>
@@ -537,7 +537,7 @@
             <disclaimer lang="ru"></disclaimer>
             <language>ru</language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=15103</forum>
             <website>https://videomore.ru</website>
             <email>vl.maksime@gmail.com</email>
@@ -568,7 +568,7 @@
             <disclaimer lang="ru">Теперь в твоем телевизоре</disclaimer>
             <language>ru</language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=15151</forum>
             <website>http://www.tvigle.ru/</website>
             <email>vl.maksime@gmail.com</email>
@@ -602,7 +602,7 @@
             <disclaimer lang="ru">Самая большая в России легальная фильмотек</disclaimer>
             <language>ru</language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=15328</forum>
             <website>https://www.ivi.ru/</website>
             <email>vl.maksime@gmail.com</email>
@@ -628,7 +628,7 @@
             <description lang="ru">Дополнение для онлайн-кинотеатра Filmix! В нашей базе 60000 разных видео, каждый из которых доступен вашему просмотру бесплатно и в отличном качестве. Выбирайте по вкусу и по настроению.</description>
             <language>ru</language>
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=16408</forum>
             <website>https://filmix.co/</website>
             <email>vl.maksime@gmail.com</email>
@@ -647,7 +647,7 @@
         <extension point="xbmc.python.module" />
         <extension point="xbmc.addon.metadata">
             <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+            <license>GPL-3.0-only</license>
             <forum>http://xbmc.ru/forum/showthread.php?t=16408</forum>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.filmix</source>
