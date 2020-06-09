@@ -1,65 +1,71 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="script.module.simpleplugin3" name="SimplePlugin 3" version="3.0.2~beta1" provider-name="Roman V.M.">
-      <requires>
-        <import addon="xbmc.python" version="2.19.0"/>
-        <import addon="script.module.future" version="0.16.0.4"/>
-      </requires>
-      <extension point="xbmc.python.module"/>
-      <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en_GB">SimplePlugin micro-framework</summary>
-        <description lang="en_GB">SimplePlugin micro-framework that simplifies Kodi content plugin programming.</description>
-        <license>GNU GPL v.3</license>
-        <forum></forum>
-        <website>http://romanvm.github.io/script.module.simpleplugin</website>
-        <email>roman1972@gmail.com</email>
-        <source>https://github.com/romanvm/script.module.simpleplugin</source>
-      </extension>
-    </addon>
-    <addon id="script.module.simplemedia" version="1.2.7~beta1" name="SimpleMedia" provider-name="vl.maksime">
-        <requires>
-            <import addon="xbmc.python" version="2.19.0"/>
-            <import addon="script.module.simpleplugin3" version="3.0.1"/>
-            <import addon="script.module.requests" version="2.15.1"/>
-        </requires>
-        <extension point="xbmc.python.module"/>
-        <extension point="xbmc.addon.metadata">
-            <platform>all</platform>
-            <license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-            <forum></forum>
-            <email>vl.maksime@gmail.com</email>
-            <source>https://github.com/vlmaksime/script.module.simplemedia</source>
-        </extension>
-    </addon>
-	<addon id="weather.gismeteo" version="0.4.2~beta1" name="Gismeteo" provider-name="vl.maksime">
-		<requires>
-			<import addon="xbmc.python" version="2.19.0"/>
-			<import addon="script.module.future" version="0.16.0.4"/>
-			<import addon="script.module.simpleplugin3" version="3.0.1"/>
-			<import addon="script.module.requests" version="2.15.1"/>
-		</requires>
-		<extension point="xbmc.python.weather"/>
-		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Gismeteo Weather Forecast. Real time weather and detailed forecast all round the world</summary>
-			<summary lang="ru">Прогноз погоды от ведущего погодного сервиса Gismeteo</summary>
-			<summary lang="sp">Pronóstico del tiempo Gismeteo. Clima en tiempo real y pronóstico detallado en todo el mundo</summary>
-			<description lang="en">The weather is provided solely for personal non-commercial use</description>
-			<description lang="ru">Погода предоставлена исключительно для личного некоммерческого использования</description>
-			<description lang="sp">El clima se proporciona únicamente para su uso personal y no comercial</description>
-			<disclaimer lang="en">The weather forecast has been prepared by MapMakers Group Ltd</disclaimer>
-			<disclaimer lang="ru">Прогноз погоды подготовлен НПЦ "Мэп Мейкер"</disclaimer>
-			<disclaimer lang="sp">El pronóstico del tiempo ha sido preparado por MapMakers Group Ltd</disclaimer>
-			<platform>all</platform>
-			<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
-			<forum>http://xbmc.ru/forum/showthread.php?t=14692</forum>
-			<website>https://www.gismeteo.ru/</website>
-			<email>vl.maksime@gmail.com</email>
-			<source>https://github.com/vlmaksime/weather.gismeteo</source>
-			<news>v0.4.2 (2020-05-21)[CR]- Fixed identified bugs[CR][CR]v0.4.1 (2020-05-03)[CR]- Changed data caching mechanism[CR]- Fixed identified bugs[CR]- Added Spanish translation (CHIKIRY WIZARD GROUP)</news>
-			<assets>
-				<icon>icon.png</icon>
-			</assets>
-		</extension>
+	<addon id="plugin.video.itv.uz" version="1.0.1~beta11" name="iTV" provider-name="vl.maksime">
+	    <requires>
+	        <import addon="xbmc.python" version="2.19.0"/>
+	        <import addon="script.module.simplemedia" version="1.2.4"/>
+	        <import addon="service.iptv.manager" optional="true"/>
+	    </requires>
+	    <extension point="xbmc.python.pluginsource" library="default.py">
+	        <provides>video</provides>
+	    </extension>
+	    <extension point="xbmc.addon.metadata">
+	        <summary lang="en">Add-on is intended for users in Uzbekistan</summary>
+	        <summary lang="ru">Дополнение предназначено для пользователей в Узбекистане</summary>
+	        <description lang="en">Advantages:[CR]- A large list of TV channels! Watch your favorite TV channels in HD format. Individual recordings of the most popular TV shows are constantly available on iTV.[CR]- The video club section is constantly updated with new products! Watch your favorite movies and TV shows online in HD quality on the TAS-IX network.</description>
+	        <description lang="ru">Преимущества:[CR]- Большой список ТВ каналов! Смотрите свои любимые ТВ каналы в HD формате. Отдельные записи самых популярных ТВ шоу в постоянном доступе на iTV.[CR]- Раздел видеоклуб постоянно пополняется новинками! Смотрите новинки кинематографа и ваши любимые фильмы и сериалы онлайн в HD качестве внутри сети TAS-IX.</description>
+	        <disclaimer lang="en">iTV - an add-on for online watching TV, movies and TV shows in the TAS-IX zone</disclaimer>
+	        <disclaimer lang="ru">iTV - дополнение для онлайн просмотра ТВ, фильмов и сериалов в зоне TAS-IX</disclaimer>
+	        <language>uz</language>
+	        <platform>all</platform>
+	        <license>GPL-3.0-only</license>
+	        <forum></forum>
+	        <website>https://itv.uz/</website>
+	        <email>vl.maksime@gmail.com</email>
+	        <source></source>
+	        <news>Публичная бета</news>
+	        <assets>
+	            <icon>icon.png</icon>
+	            <fanart>fanart.jpg</fanart>
+	        </assets>
+	    </extension>
 	</addon>
+<addon id="service.iptv.manager" name="IPTV Manager" version="0.0.1" provider-name="MichaГ«l Arnauts">
+    <requires>
+        <import addon="xbmc.python" version="2.26.0"/>
+        <import addon="script.module.dateutil" version="2.6.0"/>
+    </requires>
+    <!-- This is needed to get an add-on icon -->
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.python.library" library="default.py"/>
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="context.py">
+                <label>30600</label>
+                <visible>String.StartsWith(System.BuildVersion,18) + Window.IsVisible(tvguide) | Window.IsVisible(tvsearch)</visible>
+            </item>
+        </menu>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Integrate IPTV Channels from other Add-ons in the Kodi PVR</summary>
+        <description lang="en_GB">This add-on integrates IPTV Channels from other Add-ons in the Kodi PVR.</description>
+        <platform>all</platform>
+        <license>GPL-3.0</license>
+        <news>First release!</news>
+        <source>https://github.com/add-ons/service.iptv.manager</source>
+        <assets>
+            <icon>icon.png</icon>
+            <screenshot>media/screenshot01.jpg</screenshot>
+            <screenshot>media/screenshot02.jpg</screenshot>
+            <screenshot>media/screenshot03.jpg</screenshot>
+            <screenshot>media/screenshot04.png</screenshot>
+            <screenshot>media/screenshot05.png</screenshot>
+            <screenshot>media/screenshot06.png</screenshot>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
 </addons>
