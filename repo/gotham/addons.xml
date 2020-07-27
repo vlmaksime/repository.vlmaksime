@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+    <addon id="script.module.simpleplugin3" name="SimplePlugin 3" version="3.0.2" provider-name="Roman V.M.">
+      <requires>
+        <import addon="xbmc.python" version="2.14.0"/>
+        <import addon="script.module.future" version="0.16.0.4"/>
+      </requires>
+      <extension point="xbmc.python.module"/>
+      <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary lang="en">SimplePlugin micro-framework</summary>
+        <description lang="en">SimplePlugin micro-framework that simplifies Kodi content plugin programming.</description>
+        <license>GNU GPL v.3</license>
+        <forum></forum>
+        <website>http://romanvm.github.io/script.module.simpleplugin</website>
+        <email>roman1972@gmail.com</email>
+        <source>https://github.com/romanvm/script.module.simpleplugin</source>
+      </extension>
+    </addon>
+    <addon id="script.module.simplemedia" version="1.2.6" name="SimpleMedia" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.14.0"/>
+            <import addon="script.module.simpleplugin3" version="3.0.1"/>
+            <import addon="script.module.requests" version="2.15.1"/>
+        </requires>
+        <extension point="xbmc.python.module"/>
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <license>GPL-3.0-only</license>
+            <forum></forum>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/script.module.simplemedia</source>
+        </extension>
+    </addon>
+    <addon id="plugin.video.filmix" version="1.2.11~beta1" name="Filmix" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.14.0"/>
+            <import addon="script.module.simplemedia" version="1.2.6"/>
+            <import addon="script.module.filmix.cert" version="0.9.4"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="ru">Смотреть онлайн фильмы и сериалы бесплатно</summary>
+            <description lang="ru">Дополнение для онлайн-кинотеатра Filmix! В нашей базе 60000 разных видео, каждый из которых доступен вашему просмотру бесплатно и в отличном качестве. Выбирайте по вкусу и по настроению.</description>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GPL-3.0-only</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=16408</forum>
+            <website>https://filmix.co/</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.filmix</source>
+            <news>v1.2.10 (2020-04-19)[CR]- Добавлена возможность входа по коду[CR]- Удален вход по логину и паролю[CR]- Добавлена возможность выбора сервера из настроек дополнения[CR]- Реализовано добавление сериалов в историю просмотра[CR]- Восстановена работа добавения и удаления в разделы "Смотреть позже" и "Избранное"[CR]- Для United Search установил ссылку поиска в новом формате. Требуется сброс основных настроек</news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.jpg</fanart>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="script.module.filmix.cert" version="0.9.4" name="Filmix certificates" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="2.14.0"/>
+        </requires>
+        <extension point="xbmc.python.module" />
+        <extension point="xbmc.addon.metadata">
+            <platform>all</platform>
+            <license>GPL-3.0-only</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=16408</forum>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.filmix</source>
+        </extension>
+    </addon>
+</addons>
