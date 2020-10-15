@@ -273,7 +273,7 @@
             <source>https://github.com/vlmaksime/plugin.video.filmix</source>
         </extension>
     </addon>
-	<addon id="weather.gismeteo" version="0.5.1+matrix.1" name="Gismeteo" provider-name="vl.maksime">
+	<addon id="weather.gismeteo" version="0.5.2+matrix.1" name="Gismeteo" provider-name="vl.maksime">
 		<requires>
 			<import addon="xbmc.python" version="3.0.0"/>
 			<import addon="script.module.future" version="0.16.0.4"/>
@@ -298,7 +298,7 @@
 			<website>https://www.gismeteo.ru/</website>
 			<email>vl.maksime@gmail.com</email>
 			<source>https://github.com/vlmaksime/weather.gismeteo</source>
-			<news>v0.5.1 (2020-06-01)[CR]- Добавлена возможность вывода иконок Gismeteo</news>
+			<news>v0.5.2 (2020-10-15)[CR]- Исправлена ошибка разбора данных XML</news>
 			<assets>
 				<icon>icon.png</icon>
 			</assets>

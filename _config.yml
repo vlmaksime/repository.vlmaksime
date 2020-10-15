@@ -9,9 +9,6 @@ baseurl: "/repository.vlmaksime"
 url: "https://vlmaksime.github.io"
 
 google_analytics: UA-131785381-1
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
 
 # Collections
 collections:
@@ -21,6 +18,5 @@ collections:
 
 # Build settings
 markdown: kramdown
-plugins: [jekyll-paginate, jekyll-gist]
 exclude: [sources\]
 remote_theme: "vlmaksime/material-jekyll-theme"
