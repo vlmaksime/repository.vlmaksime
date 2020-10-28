@@ -583,7 +583,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.ivi.client" version="1.1.4" name="ivi" provider-name="vl.maksime">
+    <addon id="plugin.video.ivi.client" version="1.1.5" name="ivi" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.requests" version="2.12.4"/>
@@ -607,7 +607,7 @@
             <website>https://www.ivi.ru/</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.ivi.client</source>
-            <news>v1.1.4 (2030-05-28)[CR]- Исправлено воспроизведение DRM контента</news>
+            <news>v1.1.5 (2020-10-29)[CR]- Исправлена инициализация при новой установке</news>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>
