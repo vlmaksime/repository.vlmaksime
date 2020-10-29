@@ -4,7 +4,7 @@ date: 2020-10-29
 categories: video
 _id: plugin.video.ivi.client
 title: ivi
-version: 1.1.5
+version: 1.1.6
 provider: vl.maksime
 summary: Онлайн-кинотеатр ivi
 description: >
@@ -16,6 +16,9 @@ forum: http://xbmc.ru/forum/showthread.php?t=15328
 website: https://ivi.ru/ 
 source: https://github.com/vlmaksime/plugin.video.ivi.client
 ---
+v1.1.6 (2020-10-29)
+- Исправлена ошибка авторизации на сервисе
+
 v1.1.5 (2020-10-29)
 - Исправлена инициализация при новой установке
 
