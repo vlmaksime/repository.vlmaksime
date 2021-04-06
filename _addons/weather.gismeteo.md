@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2020-10-15
+date: 2021-04-03
 categories: weather
 _id: weather.gismeteo
 title: Gismeteo
-version: 0.5.2
+version: 0.6.1
 provider: vl.maksime
 summary: Прогноз погоды от ведущего погодного сервиса Gismeteo
 description: Погода предоставлена исключительно для личного некоммерческого использования
@@ -13,6 +13,10 @@ forum: http://xbmc.ru/forum/showthread.php?t=14692
 website: https://www.gismeteo.ru/ 
 source: https://github.com/vlmaksime/weather.gismeteo
 ---
+v0.6.1 (2021-04-03)
+- Исправлена совместимость с Kodi 19
+- Небольшие изменения в структуре дополнения
+
 v0.5.2 (2020-10-15)
 - Исправлена ошибка разбора данных XML
 
