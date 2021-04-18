@@ -1,18 +1,21 @@
 ---
 layout: addon
-date: 2020-11-22
+date: 2021-04-17
 categories: video
 _id: plugin.video.filmix
 title: Filmix
-version: 1.2.11
+version: 1.2.12
 provider: vl.maksime
 summary: Смотреть онлайн фильмы и сериалы бесплатно
 description: >
   Дополнение для онлайн-кинотеатра Filmix! В нашей базе 60000 разных видео, каждый из которых доступен вашему просмотру бесплатно и в отличном качестве. Выбирайте по вкусу и по настроению.
 forum: http://xbmc.ru/forum/showthread.php?t=16408
-website: https://filmix.co/ 
+website: https://filmix.ac/ 
 source: https://github.com/vlmaksime/plugin.video.filmix
 ---
+v1.2.12 (2021-04-17)
+- Поправил отображение постеров
+
 v1.2.11 (2020-11-22)
 - Поправил совместимость со старыми ELEC системами, которые используют LibreSSL
 - В настройках добавлено качество 360p
