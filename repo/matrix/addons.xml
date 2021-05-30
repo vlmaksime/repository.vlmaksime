@@ -203,7 +203,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.ivi.client" version="1.1.6+matrix.1" name="ivi" provider-name="vl.maksime">
+    <addon id="plugin.video.ivi.client" version="1.1.7+matrix.1" name="ivi" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.simplemedia" version="1.2.8"/>
@@ -226,7 +226,7 @@
             <website>https://www.ivi.ru/</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.ivi.client</source>
-            <news>v1.1.6 (2020-10-29)[CR]- Исправлена ошибка авторизации на сервисе[CR][CR]v1.1.5 (2020-10-29)[CR]- Исправлена инициализация при новой установке</news>
+            <news>v1.1.7 (2021-05-31)[CR]- Исправлено обращение к API при получении видео[CR]- Исправлен запуск защищенного DRM видео на Kodi 19[CR][CR]v1.1.6 (2020-10-29)[CR]- Исправлена ошибка авторизации на сервисе[CR][CR]v1.1.5 (2020-10-29)[CR]- Исправлена инициализация при новой установке</news>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.jpg</fanart>

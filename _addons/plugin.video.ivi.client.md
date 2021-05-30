@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2020-10-29
+date: 2021-05-31
 categories: video
 _id: plugin.video.ivi.client
 title: ivi
-version: 1.1.6
+version: 1.1.7
 provider: vl.maksime
 summary: Онлайн-кинотеатр ivi
 description: >
@@ -16,6 +16,10 @@ forum: http://xbmc.ru/forum/showthread.php?t=15328
 website: https://ivi.ru/ 
 source: https://github.com/vlmaksime/plugin.video.ivi.client
 ---
+v1.1.7 (2021-05-31)
+- Исправлено обращение к API при получении видео
+- Исправлен запуск защищенного DRM видео на Kodi 19
+
 v1.1.6 (2020-10-29)
 - Исправлена ошибка авторизации на сервисе
 
