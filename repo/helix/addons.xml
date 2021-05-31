@@ -121,11 +121,10 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.united.search" version="0.2.5" name="United Search" provider-name="vl.maksime">
+    <addon id="plugin.video.united.search" version="0.3.1" name="United Search" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
-            <import addon="script.module.simpleplugin" version="2.2.0"/>
-            <import addon="script.module.simplejson" version="3.3.0"/>
+            <import addon="script.module.simplemedia" version="1.2.8"/>
             <import addon="script.module.pyxbmct" version="1.1.8" />
         </requires>
         <extension point="xbmc.python.pluginsource">
@@ -146,7 +145,7 @@
             <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.united.search</source>
-            <news>v0.2.5 (2019-08-09)[CR]- Добавлена поддержка "красивых ссылок"[CR][CR]v0.2.4 (2018-10-21)[CR]- Исправлены выявленные ошибки[CR][CR]v0.2.3 (2018-10-07)[CR]- Пункты контекстного меню вынесены в отдельные дополнения[CR][CR]v0.2.2 (2017-07-02)[CR]- Доработан механизм обучения и поиска в дополнениях без встроенной поддержки</news>
+            <news>v0.3.1 (2021-05-31)[CR]- Добавлена совместимость с Kodi 19</news>
             <assets>
                 <icon>icon.png</icon>
                 <screenshot>media\screenshot-01.jpg</screenshot>
@@ -181,7 +180,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="context.united.search.search" version="0.1.1" name="United Search Context: Search" provider-name="vl.maksime">
+    <addon id="context.united.search.search" version="0.1.2" name="United Search Context: Search" provider-name="vl.maksime">
         <requires>
             <import addon="plugin.video.united.search" version="0.2.2"/>
         </requires>

@@ -312,4 +312,87 @@
 			</assets>
 		</extension>
 	</addon>
+    <addon id="plugin.video.united.search" version="0.3.1+matrix.1" name="United Search" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="script.module.simplemedia" version="1.2.8"/>
+            <import addon="script.module.pyxbmct" version="1.1.8" />
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="kodi.context.item"/>
+        <extension point="xbmc.python.module"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">Unified search for video add-ons</summary>
+            <summary lang="ru">Единый поиск для видеодополнений</summary>
+            <description lang="en">This add-on is intended for search in other video add-ons</description>
+            <description lang="ru">Дополнение предназначено для выполнения поиска в других видеодополнениях</description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru"></disclaimer>
+            <language></language>
+            <platform>all</platform>
+            <license>GPL-3.0-only</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.united.search</source>
+            <news>v0.3.1 (2021-05-31)[CR]- Добавлена совместимость с Kodi 19</news>
+            <assets>
+                <icon>icon.png</icon>
+                <screenshot>media\screenshot-01.jpg</screenshot>
+                <screenshot>media\screenshot-02.jpg</screenshot>
+                <screenshot>media\screenshot-03.jpg</screenshot>
+                <screenshot>media\screenshot-04.jpg</screenshot>
+                <screenshot>media\screenshot-05.jpg</screenshot>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="context.united.search.learn" version="0.1.2" name="United Search Context: Learn" provider-name="vl.maksime">
+        <requires>
+            <import addon="plugin.video.united.search" version="0.2.2"/>
+        </requires>
+        <extension point="kodi.context.item"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en"></summary>
+            <summary lang="ru"></summary>
+            <description lang="en"></description>
+            <description lang="ru"></description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru"></disclaimer>
+            <language></language>
+            <platform>all</platform>
+            <license>GPL-3.0-only</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
+            <email>vl.maksime@gmail.com</email>
+            <source></source>
+            <news></news>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="context.united.search.search" version="0.1.2" name="United Search Context: Search" provider-name="vl.maksime">
+        <requires>
+            <import addon="plugin.video.united.search" version="0.2.2"/>
+        </requires>
+        <extension point="kodi.context.item"/>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en"></summary>
+            <summary lang="ru"></summary>
+            <description lang="en"></description>
+            <description lang="ru"></description>
+            <disclaimer lang="en"></disclaimer>
+            <disclaimer lang="ru"></disclaimer>
+            <language></language>
+            <platform>all</platform>
+            <license>GPL-3.0-only</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14278</forum>
+            <email>vl.maksime@gmail.com</email>
+            <source></source>
+            <news></news>
+            <assets>
+                <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
 </addons>
