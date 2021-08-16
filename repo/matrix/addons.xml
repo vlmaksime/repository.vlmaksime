@@ -1,23 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="script.module.simpleplugin3" name="SimplePlugin 3" version="3.0.5+matrix.1" provider-name="Roman V.M.">
-      <requires>
-        <import addon="xbmc.python" version="3.0.0"/>
-        <import addon="script.module.future" version="0.16.0.4"/>
-      </requires>
-      <extension point="xbmc.python.module"/>
-      <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en_GB">SimplePlugin micro-framework</summary>
-        <description lang="en_GB">SimplePlugin micro-framework that simplifies Kodi content plugin programming.</description>
-        <license>GNU GPL v.3</license>
-        <forum></forum>
-        <website>http://romanvm.github.io/script.module.simpleplugin</website>
-        <email>roman1972@gmail.com</email>
-        <source>https://github.com/romanvm/script.module.simpleplugin</source>
-      </extension>
-    </addon>
-    <addon id="script.module.simplemedia" version="1.2.8+matrix.1" name="SimpleMedia" provider-name="vl.maksime">
+    <addon id="script.module.simplemedia" version="1.3.2+matrix.1" name="SimpleMedia" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.simpleplugin3" version="3.0.1"/>
@@ -392,6 +375,38 @@
             <news></news>
             <assets>
                 <icon>icon.png</icon>
+            </assets>
+        </extension>
+    </addon>
+    <addon id="plugin.video.russiatv1" version="1.0.1+matrix.1" name="Россия 1" provider-name="vl.maksime">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="script.module.simplemedia" version="1.2.4"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource">
+            <provides>video</provides>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary lang="en">"Россия 1" is an unofficial add-on of the All-Russian State TV and Radio Company for KODI.</summary>
+            <summary lang="ru">"Россия 1" - неофициальное дополнение Всероссийской государственной телерадиокомпании для KODI.</summary>
+            <description lang="en">- With the addition, you will not miss any favorite TV series, film or program! [CR] - If you want to keep abreast of all the events occurring both in Russia and in the world, then the latest issues of the "News" program are what you need! Look and learn new things!</description>
+            <description lang="ru">- С дополнением вы не пропустите ни одного любимого сериала, фильма или передачи! Для вас приготовлен бесплатный доступ не только к постоянно обновляющемуся контенту, но и крупнейшему видеоархиву телеканала "Россия 1".[CR]- Если вы хотите быть в курсе всех событий, происходящих как в России, так и в мире, тогда свежие выпуски программы "Вести" то, что вам нужно! Смотри и узнавай новое!</description>
+            <disclaimer lang="en">Come in add-on to "Russia 1", we always have something to see!</disclaimer>
+            <disclaimer lang="ru">Заходите в дополнение "Россия 1", у нас всегда есть, что посмотреть!</disclaimer>
+            <language>ru</language>
+            <platform>all</platform>
+            <license>GPL-3.0-only</license>
+            <forum>http://xbmc.ru/forum/showthread.php?t=14828</forum>
+            <website>https://russia.tv/</website>
+            <email>vl.maksime@gmail.com</email>
+            <source>https://github.com/vlmaksime/plugin.video.russiatv1</source>
+            <news>v1.0.1 (2021-08-16)[CR]- Реализована совместимость с python 3.7 (Kodi 19+)[CR]- Дополнение переделано на использование модуля SimpleMedia[CR]- Обновлена ссылка для работы с UnitedSearch. Для корректного поиска необходимо сбросить настройки дополнения[CR]- Дополнена информация в карточке контента</news>
+            <assets>
+                <icon>icon.png</icon>
+                <fanart>fanart.png</fanart>
+                <screenshot>media\screenshot-01.jpg</screenshot>
+                <screenshot>media\screenshot-02.jpg</screenshot>
+                <screenshot>media\screenshot-03.jpg</screenshot>
             </assets>
         </extension>
     </addon>

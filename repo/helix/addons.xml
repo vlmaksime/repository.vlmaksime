@@ -33,7 +33,7 @@
         <source>https://github.com/romanvm/script.module.simpleplugin</source>
       </extension>
     </addon>
-    <addon id="script.module.simplemedia" version="1.2.8" name="SimpleMedia" provider-name="vl.maksime">
+    <addon id="script.module.simplemedia" version="1.3.2" name="SimpleMedia" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
             <import addon="script.module.simpleplugin3" version="3.0.1"/>
@@ -415,11 +415,10 @@
 			</assets>
 		</extension>
 	</addon>
-    <addon id="plugin.video.russiatv1" version="0.2.2" name="Россия 1" provider-name="vl.maksime">
+    <addon id="plugin.video.russiatv1" version="1.0.1" name="Россия 1" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="2.19.0"/>
-            <import addon="script.module.requests" version="2.12.4"/>
-            <import addon="script.module.simpleplugin" version="2.3.2"/>
+            <import addon="script.module.simplemedia" version="1.2.4"/>
         </requires>
         <extension point="xbmc.python.pluginsource">
             <provides>video</provides>
@@ -438,7 +437,7 @@
             <website>https://russia.tv/</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.russiatv1</source>
-            <news>v0.2.2 (2019-03-03)[CR]- Учтены изменения в API ресурса[CR][CR]v0.2.1 (2018-01-09)[CR]- Учтены изменения в API ресурсаv[CR][CR]0.1.5 (2018-01-09)[CR]- Оптимизация[CR]- Реализовано получение актерского состава из описания[CR]- В описании материала добавлена возможность просмотреть трейлер</news>
+            <news>v1.0.1 (2021-08-16)[CR]- Реализована совместимость с python 3.7 (Kodi 19+)[CR]- Дополнение переделано на использование модуля SimpleMedia[CR]- Обновлена ссылка для работы с UnitedSearch. Для корректного поиска необходимо сбросить настройки дополнения[CR]- Дополнена информация в карточке контента</news>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.png</fanart>
