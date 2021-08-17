@@ -46,7 +46,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.ntv.ru" version="0.2.3+matrix.1" name="НТВ" provider-name="vl.maksime">
+    <addon id="plugin.video.ntv.ru" version="0.2.3+matrix.3" name="НТВ" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.requests" version="2.12.4+matrix.1"/>
