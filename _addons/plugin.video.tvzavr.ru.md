@@ -1,18 +1,20 @@
 ---
 layout: addon
-date: 2019-08-24
+date: 2022-01-04
 categories: video
 _id: plugin.video.tvzavr.ru
 title: TVZavr
-version: 1.2.0
+version: 1.2.1
 provider: vl.maksime
 summary: TVzavr.ru — международный интернет-кинотеатр, который появился на рынке в 2010 году.
 description: Интернет-кинотеатр tvzavr - легальный просмотр фильмов, сериалов и мультфильмов на любой вкус в HD и Full HD качестве.
 disclaimer: Онлайн-кинотеатр TVzavr.ru
 forum: http://xbmc.ru/forum/showthread.php?t=14182
 website: http://www.tvzavr.ru/
-source: https://github.com/vlmaksime/plugin.video.tvzavr.ru
 ---
+v1.2.1 (2022-01-04)
+- Прекращена поддержка дополнения в связи с закрытием ресурса
+
 v1.2.0 (2019-08-28)
 - Обновлена ссылка для работы с UnitedSearch. Для корректного поиска необходимо сбросить настройки дополнения
 - Реализована синхронизация времени просмотра из ресурса в Kodi
