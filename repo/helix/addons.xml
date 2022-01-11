@@ -232,6 +232,7 @@
             <website>https://zona.plus/</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.zona.mobi</source>
+            <broken>Требуется обновить API работы с ресурсом</broken>
             <news>v0.2.1 (2020-02-03)[CR]- Обновлен адрес сайта по умолчанию[CR]- Исправлено получение изображений[CR]v0.2.0 (2019-05-25)[CR]- Добавлена возможность указывать адрес сайта в настройках дополнения[CR][CR]v0.1.9 (2019-01-08)[CR]- Обновлен адрес сайта[CR]- Исправлены ошибки</news>
             <assets>
                 <icon>icon.png</icon>
