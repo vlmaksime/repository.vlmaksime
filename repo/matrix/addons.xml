@@ -363,7 +363,7 @@
             </assets>
         </extension>
     </addon>
-    <addon id="plugin.video.russiatv1" version="1.0.1+matrix.1" name="Россия 1" provider-name="vl.maksime">
+    <addon id="plugin.video.russiatv1" version="1.0.2+matrix.1" name="Россия 1" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.simplemedia" version="1.2.4"/>
@@ -385,7 +385,7 @@
             <website>https://russia.tv/</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.russiatv1</source>
-            <news>v1.0.1 (2021-08-16)[CR]- Реализована совместимость с python 3.7 (Kodi 19+)[CR]- Дополнение переделано на использование модуля SimpleMedia[CR]- Обновлена ссылка для работы с UnitedSearch. Для корректного поиска необходимо сбросить настройки дополнения[CR]- Дополнена информация в карточке контента</news>
+            <news>v1.0.2 (2022-08-11)[CR]- Добавлена обработка ответа с ошибкой сервера[CR][CR]v1.0.1 (2021-08-16)[CR]- Реализована совместимость с python 3.7 (Kodi 19+)[CR]- Дополнение переделано на использование модуля SimpleMedia[CR]- Обновлена ссылка для работы с UnitedSearch. Для корректного поиска необходимо сбросить настройки дополнения[CR]- Дополнена информация в карточке контента</news>
             <assets>
                 <icon>icon.png</icon>
                 <fanart>fanart.png</fanart>

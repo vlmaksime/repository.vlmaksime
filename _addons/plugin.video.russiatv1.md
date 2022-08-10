@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2021-08-17
+date: 2022-08-11
 categories: video
 _id: plugin.video.russiatv1
 title: Россия 1
-version: 1.0.1
+version: 1.0.2
 provider: vl.maksime
 summary: Россия 1 неофициальное дополнение Всероссийской государственной телерадиокомпании для KODI.
 description: >
@@ -15,6 +15,9 @@ forum: http://xbmc.ru/forum/showthread.php?t=14265
 website: https://russia.tv/
 source: https://github.com/vlmaksime/plugin.video.russiatv1
 ---
+v1.0.2 (2022-08-11)
+- Добавлена обработка ответа с ошибкой сервера
+
 v1.0.1 (2021-08-16)
 - Реализована совместимость с python 3.7 (Kodi 19+)
 - Дополнение переделано на использование модуля SimpleMedia
