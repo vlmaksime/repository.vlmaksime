@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2021-04-17
+date: 2023-02-07
 categories: video
 _id: plugin.video.filmix
 title: Filmix
-version: 1.2.12
+version: 1.4.2
 provider: vl.maksime
 summary: Смотреть онлайн фильмы и сериалы бесплатно
 description: >
@@ -13,6 +13,11 @@ forum: http://xbmc.ru/forum/showthread.php?t=16408
 website: https://filmix.ac/ 
 source: https://github.com/vlmaksime/plugin.video.filmix
 ---
+v1.4.2(2023-01-07)
+- Добавлена возможность воспроизведения видео 1080+ с помощью сервиса mplay.su
+- Восстановлен фильтр по качеству видео
+- Ускорена повторная загрузка списка контента
+
 v1.2.12 (2021-04-17)
 - Поправил отображение постеров
 
