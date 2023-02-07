@@ -11,9 +11,4 @@
     "icon": "fa-archive",
     "layout": "addon"
   },
-  {
-    "text": "Поблагодарить",
-    "url": "/donate",
-    "icon": "fa-money",
-  },
 ]
