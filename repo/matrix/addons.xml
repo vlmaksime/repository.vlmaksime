@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-    <addon id="script.module.simplemedia" version="1.3.3+matrix.1" name="SimpleMedia" provider-name="vl.maksime">
+    <addon id="script.module.simplemedia" version="1.4.1+matrix.1" name="SimpleMedia" provider-name="vl.maksime">
         <requires>
             <import addon="xbmc.python" version="3.0.0"/>
             <import addon="script.module.simpleplugin3" version="3.0.1"/>
