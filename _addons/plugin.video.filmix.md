@@ -1,10 +1,10 @@
 ---
 layout: addon
-date: 2023-01-22
+date: 2023-12-07
 categories: video
 _id: plugin.video.filmix
 title: Filmix
-version: 1.4.3
+version: 1.4.4
 provider: vl.maksime
 summary: Смотреть онлайн фильмы и сериалы бесплатно
 description: >
@@ -13,6 +13,10 @@ forum: http://xbmc.ru/forum/showthread.php?t=16408
 website: https://filmix.ac/ 
 source: https://github.com/vlmaksime/plugin.video.filmix
 ---
+v1.4.4(2023-12-07)
+- Реализовано кэширование запросов к серверу
+- Исправлены выявленные ошибки
+
 v1.4.3(2023-01-22)
 - Исправлено перелистывание страниц в разделе "Избранное"
 
