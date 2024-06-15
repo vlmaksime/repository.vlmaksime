@@ -11,9 +11,7 @@ description: >
   Несколько миллионов пользователей уже смотрят Tvigle на сайте и в приложениях Smart TV. Установите это дополнение и смотрите фильмы, сериалы, мультфильмы online в HD качестве.
   Главное преимущество Tvigle – 99% фильмов и сериалов бесплатные.
 disclaimer: Теперь в твоем телевизоре
-forum: http://xbmc.ru/forum/showthread.php?t=15151
 website: http://www.tvigle.ru/
-source: https://github.com/vlmaksime/plugin.video.tvigle.ru
 ---
 v2.0.1 (2019-10-20)
 - Восстановлена работа дополнения с использованием нового API

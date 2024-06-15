@@ -12,9 +12,7 @@ description: >
   Доступ к огромному каталогу фильмов и сериалов для бесплатного просмотра в один клик.
   Смотрите в HD качестве на большом экране вашего телевизора.
 disclaimer: Самая большая в России легальная фильмотек
-forum: http://xbmc.ru/forum/showthread.php?t=15328
 website: https://ivi.ru/ 
-source: https://github.com/vlmaksime/plugin.video.ivi.client
 ---
 v1.1.7 (2021-05-31)
 - Исправлено обращение к API при получении видео

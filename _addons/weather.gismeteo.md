@@ -9,7 +9,6 @@ provider: vl.maksime
 summary: Прогноз погоды от ведущего погодного сервиса Gismeteo
 description: Погода предоставлена исключительно для личного некоммерческого использования
 disclaimer: Прогноз погоды подготовлен НПЦ "Мэп Мейкер"
-forum: http://xbmc.ru/forum/showthread.php?t=14692
 website: https://www.gismeteo.ru/ 
 source: https://github.com/vlmaksime/weather.gismeteo
 ---

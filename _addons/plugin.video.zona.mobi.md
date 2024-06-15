@@ -9,7 +9,6 @@ provider: vl.maksime
 summary: Фильмы и Сериалы онлайн
 description: Выбирайте фильмы и сериалы по жанру, году, рейтингу, популярности.
 disclaimer: Дополнение для просмотра фильмов и сериалов онлайн.
-forum: http://xbmc.ru/forum/showthread.php?t=14529
 website: https://zona.mobi/
 source: https://github.com/vlmaksime/plugin.video.zona.mobi
 ---

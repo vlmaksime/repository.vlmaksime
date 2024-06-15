@@ -6,9 +6,7 @@ _id: plugin.video.videomore.ru
 title: Videomore
 version: 1.2.0
 provider: vl.maksime
-forum: http://xbmc.ru/forum/showthread.php?t=15103
 website: https://videomore.ru
-source: https://github.com/vlmaksime/plugin.video.videomore.ru
 ---
 v1.2.0 (2019-03-11)
 - Адаптирован для работы с Kodi 18
