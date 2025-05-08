@@ -499,6 +499,8 @@
             <license>GPL-3.0-only</license>
             <website>https://videomore.ru</website>
             <email>vl.maksime@gmail.com</email>
+            <broken>Прекращена работа ресурса</broken>
+            <lifecyclestate type="broken" lang="ru">Прекращена работа ресурса</lifecyclestate>
             <source>https://github.com/vlmaksime/script.module.api.videomore.ru</source>
         </extension>
     </addon>
@@ -526,6 +528,7 @@
             <website>https://domashniy.ru</website>
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.domashniy.ru</source>
+            <lifecyclestate type="broken" lang="ru">Прекращена работа ресурса</lifecyclestate>
             <news>v1.1.0 (2018-04-22)[CR]- Реализован запуск DRM видео</news>
             <assets>
                 <icon>icon.png</icon>
@@ -558,6 +561,8 @@
             <email>vl.maksime@gmail.com</email>
             <source>https://github.com/vlmaksime/plugin.video.videomore.ru</source>
             <news>v1.2.0 (2019-03-11)[CR]- Адаптирован для работы с Kodi 18[CR][CR]v1.1.0 (2018-04-22)[CR]- Дополнение переписано с нуля[CR]- Реализовано воспроизведение DRM видео</news>
+            <broken>Прекращена работа ресурса</broken>
+            <lifecyclestate type="broken" lang="ru">Прекращена работа ресурса</lifecyclestate>
             <assets>
                 <icon>icon.png</icon>
             </assets>
