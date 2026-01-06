@@ -418,4 +418,32 @@
 			<license>CC-BY-3.0</license>
 		</extension>
 	</addon>
+	<addon id="plugin.video.kino.matrixhome.net" version="1.0.0~beta2+matrix.1" name="Кинозал MATRIX" provider-name="vl.maksime">
+	    <requires>
+	        <import addon="xbmc.python" version="3.0.0"/>
+	        <import addon="script.module.simplemedia" version="1.3.2"/>
+	    </requires>
+	    <extension point="xbmc.python.pluginsource" library="default.py">
+	        <provides>video</provides>
+	    </extension>
+	    <extension point="xbmc.addon.metadata">
+	        <summary lang="en"></summary>
+	        <summary lang="ru"></summary>
+	        <description lang="en"></description>
+	        <description lang="ru"></description>
+	        <language>ru</language>
+	        <platform>all</platform>
+	        <license>GPL-3.0-only</license>
+	        <forum></forum>
+	        <website></website>
+	        <email>vl.maksime@gmail.com</email>
+	        <source>https://github.com/vlmaksime/plugin.video.kino.matrixhome.net</source>
+	        <news></news>
+	        <assets>
+	            <icon>icon.png</icon>
+	            <fanart>fanart.jpg</fanart>
+	            <clearlogo>resources\media\clearlogo.png</clearlogo>
+	        </assets>
+	    </extension>
+	</addon>
 </addons>
